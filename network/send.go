@@ -16,18 +16,14 @@ func (s Send) SendSignOutToPeers() {
 	ss := "节点:" + localAddr + "已退出网络"
 	m := myerror{ss, localAddr}
 	data := jointMessage(cMyError, m.serialize())
-	for _, v := range peerPool {
-		s.SendMessage(v, data)
-	}
+	_ = gossip.Publish(pubsubTopic, data)
 }
 
 //向网络中其他节点发送高度信息
 func (s Send) SendVersionToPeers(lastHeight int) {
 	newV := version{versionInfo, lastHeight, localAddr}
 	data := jointMessage(cVersion, newV.serialize())
-	for _, v := range peerPool {
-		s.SendMessage(v, data)
-	}
+	_ = gossip.Publish(pubsubTopic, data)
 	log.Trace("version信息发送完毕...")
 }
 
@@ -47,9 +43,7 @@ func (s Send) SendTransToPeers(ts []block.Transaction) {
 	//然后将命令与交易列表拼接好发送给全网节点
 	data := jointMessage(cTransaction, tss.Serialize())
 	log.Tracef("准备发送%d笔交易到网络中其他P2P节点", len(tss.Ts))
-	for _, v := range peerPool {
-		s.SendMessage(v, data)
-	}
+	_ = gossip.Publish(pubsubTopic, data)
 }
 
 //基础发送信息方法
@@ -63,7 +57,7 @@ func (Send) SendMessage(peer peer.AddrInfo, data []byte) {
 	if err != nil {
 		log.Debug("Stream open failed", err)
 	} else {
-		cmd, _ := splitMessage(data)
+		cmd, _ := SplitMessage(data)
 		//创建一个缓冲流的容器
 		rw := bufio.NewReadWriter(bufio.NewReader(stream), bufio.NewWriter(stream))
 		//写入信息到缓冲容器
@@ -84,3 +78,51 @@ func (Send) SendMessage(peer peer.AddrInfo, data []byte) {
 		log.Debugf("send cmd:%s to peer:%v", cmd, peer)
 	}
 }
+
+
+func (s Send) GetUTXOsBytes(address string)[]byte{
+	utxosBytes,err := HttpChangeData(CUTXOs,[]byte(address))
+	if err != nil{
+		log.Panic(err)
+		return nil
+	}
+	return utxosBytes
+}
+
+//根据交易HASH获取交易
+func (s Send) GetTrans(ID []byte)[]byte{
+	transbyte,err := HttpChangeData(CFindTs,ID)
+	if err != nil {
+		log.Fatal(err)
+		return nil
+	}
+	return transbyte
+}
+
+
+func (s Send)SendMinedBlockHeader(minedBH block.BlockHeader,addr string,port string){
+	minedBytes := block.SerializeBlockHeader(&minedBH)
+	result,err := HttpChangeDataByAddr(CMinedBH,minedBytes,addr,port)
+	if err != nil {
+		log.Fatal(err)
+		return
+	}
+	cmd, content := SplitMessage(result)
+	log.Tracef("本节点已接收到命令：%s", cmd)
+	log.Trace(string(content))
+
+	return
+}
+
+// websocket区块头推送
+type WebsocketSend struct {
+
+}
+
+var BlockHeaderPool []block.BlockHeader
+
+func (ws WebsocketSend) SendBlockHeaderToUser(bh block.BlockHeader){
+	BlockHeaderPool = append(BlockHeaderPool, bh)
+}
+
+func (ws WebsocketSend) SendVersionToUser(){}

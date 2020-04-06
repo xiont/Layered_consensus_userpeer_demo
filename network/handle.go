@@ -2,14 +2,59 @@ package network
 
 import (
 	"bytes"
+	"context"
 	"fmt"
 	blc "github.com/corgi-kx/blockchain_golang/blc"
 	log "github.com/corgi-kx/logcustom"
 	"github.com/libp2p/go-libp2p-core/network"
+	pubsub "github.com/libp2p/go-libp2p-pubsub"
 	"io/ioutil"
+	"math/big"
+	"os"
 	"sync"
 	"time"
 )
+
+
+func pubsubHandler(ctx context.Context, sub *pubsub.Subscription) {
+	for {
+		msg, err := sub.Next(ctx)
+		if err != nil {
+			_, _ = fmt.Fprintln(os.Stderr, err)
+			continue
+		}
+
+		//取信息的前十二位得到命令
+		cmd, content := SplitMessage(msg.Data)
+		//fmt.Println(msg.Data)
+
+		log.Tracef("本节点已接收到命令：%s", cmd)
+		switch command(cmd) {
+		case cVersion:
+			go handleVersion(content)
+		case cABHeader:
+			go handleBlockHeader(content)
+
+		//case cGetHash:
+		//	go handleGetHash(content)
+		//case cHashMap:
+		//	go handleHashMap(content)
+		//case cGetBlock:
+		//	go handleGetBlock(content)
+		//case cBlock:
+		//	go handleBlock(content)
+		//case cTransaction:
+		//	go handleTransaction(content)
+		case cMyError:
+			go handleMyError(content)
+		}
+
+	}
+}
+
+
+
+
 
 //对接收到的数据解析出命令,然后对不同的命令分别进行处理
 func handleStream(stream network.Stream) {
@@ -18,7 +63,7 @@ func handleStream(stream network.Stream) {
 		log.Panic(err)
 	}
 	//取信息的前十二位得到命令
-	cmd, content := splitMessage(data)
+	cmd, content := SplitMessage(data)
 	log.Tracef("本节点已接收到命令：%s", cmd)
 	switch command(cmd) {
 	case cVersion:
@@ -37,6 +82,35 @@ func handleStream(stream network.Stream) {
 		go handleMyError(content)
 	}
 }
+
+
+//
+func handleBlockHeader(content []byte){
+	//首先解析地址信息
+	abh := DeserializeAddrMapBlockHeader(content)
+	addr := abh.Addr
+	port := abh.Port
+	//先不做存储
+	blockHeader := blc.DeserializeBlockHeader(abh.BlockHeaderByte)
+	//比当前挖矿的高度高才允许挖矿，或者当前没有在挖矿，允许挖矿
+	if blockHeader.Height > blc.NowPowHeight || blc.NowPowHeight == 0{
+		target := big.NewInt(1)
+		//返回一个大数(1 << 256-TargetBits)
+		target.Lsh(target, 256- blc.TargetBits)
+		pow := blc.ProofOfWork{
+			BlockHeader: blockHeader,
+			Target:      target,
+		}
+		blc.AsyncMine(&pow,send,addr,port)
+		return
+	}else {
+		return
+	}
+
+
+
+}
+
 
 //打印接收到的错误信息
 func handleMyError(content []byte) {
@@ -111,7 +185,7 @@ func mineBlock(t Transactions) {
 				nTs[i].Vout = mineTrans.Ts[i].Vout
 			}
 			//进行转帐挖矿
-			bc.Transfer(nTs, send)
+			bc.Transfer(nTs, send, wsend)
 			//剔除已打包进区块的交易
 			newTrans := []Transaction{}
 			newTrans = append(newTrans, tradePool.Ts[TradePoolLength:]...)
@@ -221,33 +295,21 @@ func handleGetHash(content []byte) {
 
 //接收到其他节点的区块高度信息,与本地区块高度进行对比
 func handleVersion(content []byte) {
+	//接收到高度信息，进行处理
 	var lock sync.Mutex
 	lock.Lock()
 	defer lock.Unlock()
 	v := version{}
 	v.deserialize(content)
-	bc := blc.NewBlockchain()
+
 	if blc.NewestBlockHeight > v.Height {
-		log.Info("目标高度比本链小，准备向目标发送版本信息")
-		for {
-			currentHeight := bc.GetLastBlockHeight()
-			if currentHeight < blc.NewestBlockHeight {
-				log.Info("当前正在更新区块信息,稍后将发送版本信息...")
-				time.Sleep(time.Second)
-			} else {
-				newV := version{versionInfo, currentHeight, localAddr}
-				data := jointMessage(cVersion, newV.serialize())
-				send.SendMessage(buildPeerInfoByAddr(v.AddrFrom), data)
-				break
-			}
-		}
+		log.Info("目标高度比本次挖矿的高度小，不予处理")
 	} else if blc.NewestBlockHeight < v.Height {
-		log.Debugf("对方版本比咱们大%v,发送获取区块的hash信息！", v)
-		gh := getHash{blc.NewestBlockHeight, localAddr}
+		log.Debugf("节点%v发送过来的高度比我们的大,替换本节点的高度信息，停止挖矿", v)
 		blc.NewestBlockHeight = v.Height
-		data := jointMessage(cGetHash, gh.serialize())
-		send.SendMessage(buildPeerInfoByAddr(v.AddrFrom), data)
 	} else {
 		log.Debug("接收到版本信息，双方高度一致，无需处理！")
+		//log.Debugf("节点%v发送过来的高度信息与当前一致，停止当前挖矿",v)
+		//blc.NewestBlockHeight = v.Height
 	}
 }

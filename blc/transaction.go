@@ -18,7 +18,7 @@ type Transaction struct {
 }
 
 //对此笔交易的输入,输出进行hash运算后存入交易hash(txhash)
-func (t *Transaction) hash() {
+func (t *Transaction) Hash() {
 	tBytes := t.Serialize()
 	//加入随机数byte
 	randomNumber := util.GenerateRealRandom()
@@ -55,6 +55,18 @@ func (t *Transaction) Serialize() []byte {
 		panic(err)
 	}
 	return result.Bytes()
+}
+
+//交易的反序列化
+func DeserializeTransaction(d []byte) Transaction {
+	var ts Transaction
+	decoder := gob.NewDecoder(bytes.NewReader(d))
+	err := decoder.Decode(&ts)
+	if err != nil {
+		log.Panic(err)
+
+	}
+	return ts
 }
 
 //将整笔交易里的成员依次转换成字节数组,拼接成整体后 返回

@@ -8,8 +8,17 @@ import (
 	log "github.com/corgi-kx/logcustom"
 	"github.com/libp2p/go-libp2p"
 	"github.com/libp2p/go-libp2p-core/crypto"
+	"github.com/libp2p/go-libp2p-core/host"
 	"github.com/libp2p/go-libp2p-core/peer"
-	"github.com/libp2p/go-libp2p-core/protocol"
+	//"github.com/libp2p/go-libp2p-core/protocol"
+	"github.com/libp2p/go-libp2p-core/routing"
+	kaddht "github.com/libp2p/go-libp2p-kad-dht"
+	mplex "github.com/libp2p/go-libp2p-mplex"
+	pubsub "github.com/libp2p/go-libp2p-pubsub"
+	secio "github.com/libp2p/go-libp2p-secio"
+	yamux "github.com/libp2p/go-libp2p-yamux"
+	"github.com/libp2p/go-libp2p/p2p/discovery"
+	"github.com/libp2p/go-tcp-transport"
 	"github.com/multiformats/go-multiaddr"
 	"os"
 	"os/signal"
@@ -23,12 +32,46 @@ var peerPool = make(map[string]peer.AddrInfo)
 var ctx = context.Background()
 var send = Send{}
 
+//gossip网络
+var gossip = pubsub.PubSub{}
+//gossip主题
+const pubsubTopic = "/libp2p/user_blockchain/1.0.0"
+
+
+//Websocket推送
+var wsend = WebsocketSend{}
+
 //启动本地节点
 func StartNode(clier Clier) {
 	//先获取本地区块最新高度
-	bc := block.NewBlockchain()
-	block.NewestBlockHeight = bc.GetLastBlockHeight()
+	//bc := block.NewBlockchain()
+	//block.NewestBlockHeight = bc.GetLastBlockHeight()
 	log.Infof("[*] 监听IP地址: %s 端口号: %s", ListenHost, ListenPort)
+
+
+	//传输层接口 TCP
+	transports := libp2p.ChainOptions(
+		libp2p.Transport(tcp.NewTCPTransport),
+	)
+	//多路复用
+	muxers := libp2p.ChainOptions(
+		libp2p.Muxer("/yamux/1.0.0", yamux.DefaultTransport),
+		libp2p.Muxer("/mplex/6.7.0", mplex.DefaultTransport),
+	)
+	//安全传输
+	security := libp2p.Security(secio.ID, secio.New)
+
+	//Kademila路由
+	var dht *kaddht.IpfsDHT
+	newDHT := func(h host.Host) (routing.PeerRouting, error) {
+		var err error
+		dht, err = kaddht.New(ctx, h)
+		return dht, err
+	}
+	routing_ := libp2p.Routing(newDHT)
+
+
+
 	r := rand.Reader
 	// 为本地节点创建RSA密钥对
 	prvKey, _, err := crypto.GenerateKeyPairWithReader(crypto.RSA, 2048, r)
@@ -40,28 +83,92 @@ func StartNode(clier Clier) {
 	//传入地址信息，RSA密钥对信息，生成libp2p本地host信息
 	host, err := libp2p.New(
 		ctx,
+		transports,
+		//监听地址
 		libp2p.ListenAddrs(sourceMultiAddr),
 		libp2p.Identity(prvKey),
+		muxers,
+		security,
+		routing_,
+		libp2p.NATPortMap(),
+		libp2p.DefaultEnableRelay,
+		libp2p.DefaultPeerstore,
 	)
 	if err != nil {
 		log.Panic(err)
 	}
+
 	//写入全局变量本地主机信息
 	localHost = host
 	//写入全局变量本地P2P节点地址详细信息
 	localAddr = fmt.Sprintf("/ip4/%s/tcp/%s/p2p/%s", ListenHost, ListenPort, host.ID().Pretty())
 	log.Infof("[*] 你的P2P地址信息: %s", localAddr)
 	//启动监听本地端口，并且传入一个处理流的函数，当本地节点接收到流的时候回调处理流的函数
-	host.SetStreamHandler(protocol.ID(ProtocolID), handleStream)
+	//host.SetStreamHandler(protocol.ID(ProtocolID), handleStream)
+
+
+	//启用gossip 代替上面的
+	ps, err := pubsub.NewGossipSub(ctx, host)
+	if err != nil {
+		panic(err)
+	}
+	gossip = *ps
+	sub, err := ps.Subscribe(pubsubTopic)
+	if err != nil {
+		panic(err)
+	}
+	// TODO: Modify this handler to use the protobufs defined in this folder
+	go pubsubHandler(ctx, sub)
+
+
+	//连接bootstrap节点
+	fmt.Printf("addr: %s\n", host.ID())
+	for _, addr := range host.Addrs() {
+		fmt.Println("Listening on", addr)
+	}
+	targetAddr, err := multiaddr.NewMultiaddr(fmt.Sprintf("/ip4/144.34.183.16/tcp/%s/p2p/%s", "4002", "QmS5QmciTXXnCUCyxud5eWFenUMAmvAWSDa1c7dvdXRMZ7"))
+	if err != nil {
+		panic(err)
+	}
+
+	targetInfo, err := peer.AddrInfoFromP2pAddr(targetAddr)
+	if err != nil {
+		panic(err)
+	}
+
+	err = host.Connect(ctx, *targetInfo)
+	if err != nil {
+		panic(err)
+	}
+	//
+
+	fmt.Println("Connected to", targetInfo.ID)
+
+	//局域网主机查找技术
+	mdns, err := discovery.NewMdnsService(ctx, host, time.Second*10, "")
+	if err != nil {
+		panic(err)
+	}
+	mdns.RegisterNotifee(&mdnsNotifee{h: host, ctx: ctx})
+
+	//路由bootstrap
+	err = dht.Bootstrap(ctx)
+	if err != nil {
+		panic(err)
+	}
+
+
 	//寻找p2p网络并加入到节点池里
-	go findP2PPeer()
+	//go findP2PPeer()
 	//监测节点池,如果发现网络当中节点有变动则打印到屏幕
-	go monitorP2PNodes()
+	//go monitorP2PNodes()
 	//启一个go程去向其他p2p节点发送高度信息，来进行更新区块数据
-	go sendVersionToPeers()
+	//go sendVersionToPeers()
 	//启动程序的命令行输入环境
+
+
 	go clier.ReceiveCMD()
-	fmt.Println("本地网络节点已启动,详细信息请查看log日志!")
+	fmt.Println("本地用户网络节点已启动,详细信息请查看log日志!")
 	signalHandle()
 }
 
@@ -118,4 +225,13 @@ func signalHandle() {
 	fmt.Println("本地节点已退出")
 	time.Sleep(time.Second)
 	os.Exit(0)
+}
+
+type mdnsNotifee struct {
+	h   host.Host
+	ctx context.Context
+}
+
+func (m *mdnsNotifee) HandlePeerFound(pi peer.AddrInfo) {
+	m.h.Connect(m.ctx, pi)
 }

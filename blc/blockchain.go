@@ -25,7 +25,7 @@ func NewBlockchain() *blockchain {
 }
 
 //创建创世区块交易信息
-func (bc *blockchain) CreataGenesisTransaction(address string, value int, send Sender) {
+func (bc *blockchain) CreataGenesisTransaction(address string, value int, send Sender, wsend WebsocketSender) {
 	//判断地址格式是否正确
 	if !IsVaildBitcoinAddress(address) {
 		log.Errorf("地址格式不正确:%s\n", address)
@@ -43,10 +43,10 @@ func (bc *blockchain) CreataGenesisTransaction(address string, value int, send S
 	publicKeyHash := generatePublicKeyHash(genesisKeys.PublicKey)
 	txo := TXOutput{value, publicKeyHash}
 	ts := Transaction{nil, []TXInput{txi}, []TXOutput{txo}}
-	ts.hash()
+	ts.Hash()
 	tss := []Transaction{ts}
 	//开始生成区块链的第一个区块
-	bc.newGenesisBlockchain(tss)
+	bc.newGenesisBlockchain(tss, wsend)
 	//创世区块后,更新本地最新区块为1并,向全网节点发送当前区块链高度1
 	NewestBlockHeight = 1
 	send.SendVersionToPeers(1)
@@ -57,13 +57,13 @@ func (bc *blockchain) CreataGenesisTransaction(address string, value int, send S
 }
 
 //创建区块链
-func (bc *blockchain) newGenesisBlockchain(transaction []Transaction) {
+func (bc *blockchain) newGenesisBlockchain(transaction []Transaction, wsend WebsocketSender) {
 	//判断一下是否已生成创世区块
 	if len(bc.BD.View([]byte(LastBlockHashMapping), database.BlockBucket)) != 0 {
 		log.Fatal("不可重复生成创世区块")
 	}
 	//生成创世区块
-	genesisBlock := newGenesisBlock(transaction)
+	genesisBlock := newGenesisBlock(transaction, wsend)
 	//添加到数据库中
 	bc.AddBlock(genesisBlock)
 }
@@ -79,24 +79,24 @@ func (bc *blockchain) CreataRewardTransaction(address string) Transaction {
 		return Transaction{}
 	}
 
-	publicKeyHash := getPublicKeyHashFromAddress(address)
+	publicKeyHash := GetPublicKeyHashFromAddress(address)
 	txo := TXOutput{TokenRewardNum, publicKeyHash}
 	ts := Transaction{nil, nil, []TXOutput{txo}}
-	ts.hash()
+	ts.Hash()
 	return ts
 }
 
 //创建UTXO交易实例
-func (bc *blockchain) CreateTransaction(from, to string, amount string, send Sender) {
+func (bc *blockchain) CreateTransaction(from, to string, amount string, send Sender) []Transaction {
 	//判断一下是否已生成创世区块
-	if len(bc.BD.View([]byte(LastBlockHashMapping), database.BlockBucket)) == 0 {
-		log.Error("还没有生成创世区块，不可进行转账操作 !")
-		return
-	}
+	//if len(bc.BD.View([]byte(LastBlockHashMapping), database.BlockBucket)) == 0 {
+	//	log.Error("还没有生成创世区块，不可进行转账操作 !")
+	//	return
+	//}
 	//检测是否设置了挖矿地址,没设置的话会给出提示
-	if len(bc.BD.View([]byte(RewardAddrMapping), database.AddrBucket)) == 0 {
-		log.Warn("没有设置挖矿地址，如果挖出区块将不会给予奖励代币!")
-	}
+	//if len(bc.BD.View([]byte(RewardAddrMapping), database.AddrBucket)) == 0 {
+	//	log.Warn("没有设置挖矿地址，如果挖出区块将不会给予奖励代币!")
+	//}
 
 	fromSlice := []string{}
 	toSlice := []string{}
@@ -106,21 +106,21 @@ func (bc *blockchain) CreateTransaction(from, to string, amount string, send Sen
 	err := json.Unmarshal([]byte(from), &fromSlice)
 	if err != nil {
 		log.Error("json err:", err)
-		return
+		return nil
 	}
 	err = json.Unmarshal([]byte(to), &toSlice)
 	if err != nil {
 		log.Error("json err:", err)
-		return
+		return nil
 	}
 	err = json.Unmarshal([]byte(amount), &amountSlice)
 	if err != nil {
 		log.Error("json err:", err)
-		return
+		return nil
 	}
 	if len(fromSlice) != len(toSlice) || len(fromSlice) != len(amountSlice) {
 		log.Error("转账数组长度不一致")
-		return
+		return nil
 	}
 
 	for i, v := range fromSlice {
@@ -175,17 +175,21 @@ func (bc *blockchain) CreateTransaction(from, to string, amount string, send Sen
 			log.Errorf("没有找到地址%s所对应的公钥,跳过此笔交易", fromAddress)
 			continue
 		}
-		toKeysPublicKeyHash := getPublicKeyHashFromAddress(toSlice[index])
+		toKeysPublicKeyHash := GetPublicKeyHashFromAddress(toSlice[index])
 		if fromAddress == toSlice[index] {
 			log.Errorf("相同地址不能转账！！！:%s\n", fromAddress)
-			return
+			return nil
 		}
+
+		//获取云计算节点中的未消费的utxo
 		u := UTXOHandle{bc}
-		//获取数据库中的未消费的utxo
-		utxos := u.findUTXOFromAddress(fromAddress)
+		//utxos := u.findUTXOFromAddress(fromAddress)
+		utxosBytes := send.GetUTXOsBytes(fromAddress)
+		utxos := u.dserialize(utxosBytes)
+
 		if len(utxos) == 0 {
 			log.Errorf("%s 余额为0,不能进行转帐操作", fromAddress)
-			return
+			return nil
 		}
 		//将utxos添加上未打包进区块的交易信息
 		if tss != nil {
@@ -246,19 +250,22 @@ func (bc *blockchain) CreateTransaction(from, to string, amount string, send Sen
 			continue
 		}
 		ts := Transaction{nil, newTXInput, newTXOutput[:]}
-		ts.hash()
+		ts.Hash()
 		tss = append(tss, ts)
 	}
 	if tss == nil {
-		return
+		return nil
 	}
-	bc.signatureTransactions(tss, wallets)
+
+	//fmt.Printf("%s",tss)
+	bc.signatureTransactions(tss, wallets, send)
 	//向P2P节点发送交易数据
-	send.SendTransToPeers(tss)
+	//send.SendTransToPeers(tss)
+	return tss
 }
 
 //交易转账
-func (bc *blockchain) Transfer(tss []Transaction, send Sender) {
+func (bc *blockchain) Transfer(tss []Transaction, send Sender, wsend WebsocketSender) {
 	//如果是创世区块的交易则无需进行数字签名验证
 	if !isGenesisTransaction(tss) {
 		//交易的数字签名验证
@@ -279,7 +286,7 @@ func (bc *blockchain) Transfer(tss []Transaction, send Sender) {
 	if rewardTs.TxHash != nil {
 		tss = append(tss, rewardTs)
 	}
-	bc.addBlockchain(tss, send)
+	bc.addBlockchain(tss, send, wsend)
 }
 
 //校验交易余额是否足够,如果不够则剔除
@@ -319,7 +326,7 @@ circle:
 			}
 		}
 		for _, vOut := range (*tss)[i].Vout {
-			if bytes.Equal(getPublicKeyHashFromAddress(fromAddress), vOut.PublicKeyHash) {
+			if bytes.Equal(GetPublicKeyHashFromAddress(fromAddress), vOut.PublicKeyHash) {
 				voutAmount += vOut.Value
 			}
 		}
@@ -347,7 +354,7 @@ func (bc *blockchain) SetRewardAddress(address string) {
 }
 
 //将交易添加进区块链中(内含挖矿操作)
-func (bc *blockchain) addBlockchain(transaction []Transaction, send Sender) {
+func (bc *blockchain) addBlockchain(transaction []Transaction, send Sender, wsend WebsocketSender) {
 	preBlockbyte := bc.BD.View(bc.BD.View([]byte(LastBlockHashMapping), database.BlockBucket), database.BlockBucket)
 	preBlock := Block{}
 	preBlock.Deserialize(preBlockbyte)
@@ -355,7 +362,7 @@ func (bc *blockchain) addBlockchain(transaction []Transaction, send Sender) {
 	preRandomMatrix := preBlock.BBlockHeader.RandomMatrix
 	cA := CACertificate{ThisNodeAddr}
 	//进行挖矿
-	nb, err := mineBlock(transaction, bc.BD.View([]byte(LastBlockHashMapping), database.BlockBucket), height, preRandomMatrix, cA)
+	nb, err := mineBlock(transaction, bc.BD.View([]byte(LastBlockHashMapping), database.BlockBucket), height, preRandomMatrix, cA, wsend)
 	if err != nil {
 		log.Warn(err)
 		return
@@ -380,7 +387,7 @@ func (bc *blockchain) AddBlock(block *Block) {
 }
 
 //对交易信息进行数字签名
-func (bc *blockchain) signatureTransactions(tss []Transaction, wallets *wallets) {
+func (bc *blockchain) signatureTransactions(tss []Transaction, wallets *wallets, send Sender) {
 	for i := range tss {
 		copyTs := tss[i].customCopy()
 		for index := range tss[i].Vint {
@@ -388,10 +395,21 @@ func (bc *blockchain) signatureTransactions(tss []Transaction, wallets *wallets)
 			bk := bitcoinKeys{nil, tss[i].Vint[index].PublicKey, nil}
 			address := bk.getAddress()
 			//从数据库或者为打包进数据库的交易数组中,找到vint所对应的交易信息
-			trans, err := bc.findTransaction(tss, tss[i].Vint[index].TxHash)
-			if err != nil {
-				log.Fatal(err)
+
+			transbyte := send.GetTrans(tss[i].Vint[index].TxHash)
+
+			trans := DeserializeTransaction(transbyte)
+
+			//trans, err := bc.findTransaction(tss, tss[i].Vint[index].TxHash)
+			//先查找未插入数据库的交易
+			if len(tss) != 0 {
+				for _, tx := range tss {
+					if bytes.Compare(tx.TxHash, tss[i].Vint[index].TxHash) == 0 {
+						trans = tx
+					}
+				}
 			}
+
 			copyTs.Vint[index].Signature = nil
 			//将拷贝后的交易里面的公钥替换为公钥hash
 			copyTs.Vint[index].PublicKey = trans.Vout[tss[i].Vint[index].Index].PublicKeyHash

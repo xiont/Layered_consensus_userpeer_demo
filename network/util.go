@@ -1,6 +1,8 @@
 package network
 
 import (
+	"bytes"
+	"encoding/gob"
 	log "github.com/corgi-kx/logcustom"
 	"github.com/libp2p/go-libp2p-core/peer"
 	"github.com/multiformats/go-multiaddr"
@@ -40,7 +42,7 @@ func jointMessage(cmd command, content []byte) []byte {
 }
 
 //默认前十二位为命令名称
-func splitMessage(message []byte) (cmd string, content []byte) {
+func SplitMessage(message []byte) (cmd string, content []byte) {
 	cmdBytes := message[:prefixCMDLength]
 	newCMDBytes := make([]byte, 0)
 	for _, v := range cmdBytes {
@@ -51,4 +53,34 @@ func splitMessage(message []byte) (cmd string, content []byte) {
 	cmd = string(newCMDBytes)
 	content = message[prefixCMDLength:]
 	return
+}
+
+//gossip 区块头 和 远程主机地址 端口
+type AddrMapBlockHeader struct{
+	Addr string
+	Port string
+	BlockHeaderByte []byte
+}
+
+
+//交易组的序列化
+func SerializeAddrMapBlockHeader(abh AddrMapBlockHeader ) []byte {
+	var result bytes.Buffer
+	encoder := gob.NewEncoder(&result)
+
+	err := encoder.Encode(&abh)
+	if err != nil {
+		panic(err)
+	}
+	return result.Bytes()
+}
+//交易组的反序列化
+func DeserializeAddrMapBlockHeader(d []byte) AddrMapBlockHeader{
+	var abh AddrMapBlockHeader
+	decoder := gob.NewDecoder(bytes.NewReader(d))
+	err := decoder.Decode(&abh)
+	if err != nil {
+		log.Panic(err)
+	}
+	return abh
 }

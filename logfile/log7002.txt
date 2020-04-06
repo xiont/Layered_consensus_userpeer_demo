@@ -1,0 +1,8 @@
+[34m[INFO]: 2020/03/24 10:17:38 server.go:35:StartNode: [*] 监听IP地址: 127.0.0.1 端口号: 7002[0m
+[34m[INFO]: 2020/03/24 10:17:38 server.go:57:StartNode: [*] 你的P2P地址信息: /ip4/127.0.0.1/tcp/7002/p2p/QmRP5ib3wYXMVoHsw3uFjFS7TKb2ecYo2pKRx5gAYyhA5G[0m
+[34m[INFO]: 2020/03/24 10:17:48 server.go:88:monitorP2PNodes: ----------------------检测到网络中P2P节点变动,当前节点池存在的节点------------------[0m
+[34m[INFO]: 2020/03/24 10:17:48 server.go:90:monitorP2PNodes: |   {QmYtUZjfbTSsWpyHKaLhixeaenC4GoyZuhTmyyEAKg3b8E: [/ip4/127.0.0.1/tcp/7003]}   |[0m
+[34m[INFO]: 2020/03/24 10:17:48 server.go:92:monitorP2PNodes: ----------------------------------------------------------------------------------[0m
+[32m[TRACE]: 2020/03/24 10:18:12 handle.go:22:handleStream: 本节点已接收到命令：myError[0m
+[33m[WARN]: 2020/03/24 10:18:12 handle.go:45:handleMyError: 节点:/ip4/127.0.0.1/tcp/7003/p2p/QmYtUZjfbTSsWpyHKaLhixeaenC4GoyZuhTmyyEAKg3b8E已退出网络[0m
+[34m[INFO]: 2020/03/24 10:18:12 server.go:95:monitorP2PNodes: -------------------检测到网络中P2P节点变动,当前网络中已不存在其他P2P节点-------------------------[0m

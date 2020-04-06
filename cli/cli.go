@@ -17,16 +17,17 @@ func printUsage() {
 	fmt.Println("----------------------------------------------------------------------------- ")
 	fmt.Println("Usage:")
 	fmt.Println("\thelp                                              打印命令行说明")
-	fmt.Println("\tgenesis  -a DATA  -v DATA                         生成创世区块")
-	fmt.Println("\tsetRewardAddr -a DATA                             设置挖矿奖励地址")
+	//fmt.Println("\tgenesis  -a DATA  -v DATA                         生成创世区块")
+	//fmt.Println("\tsetRewardAddr -a DATA                             设置挖矿奖励地址")
 	fmt.Println("\tgenerateWallet                                    创建新钱包")
 	fmt.Println("\timportMnword -m DATA                              根据助记词导入钱包")
 	fmt.Println("\tprintAllWallets                                   查看本地存在的钱包信息")
 	fmt.Println("\tprintAllAddr                                      查看本地存在的地址信息")
 	fmt.Println("\tgetBalance  -a DATA                               查看用户余额")
 	fmt.Println("\ttransfer -from DATA -to DATA -amount DATA         进行转账操作")
-	fmt.Println("\tprintAllBlock                                     查看所有区块信息")
-	fmt.Println("\tresetUTXODB                                       遍历区块数据，重置UTXO数据库")
+	fmt.Println("\tgetBlock -o NUM                                   查看附近区块")
+	//fmt.Println("\tprintAllBlock                                     查看所有区块信息")
+	//fmt.Println("\tresetUTXODB                                       遍历区块数据，重置UTXO数据库")
 	fmt.Println("------------------------------------------------------------------------------")
 }
 
@@ -37,6 +38,14 @@ func New() *Cli {
 func (cli *Cli) Run() {
 	printUsage()
 	go cli.startNode()
+	//监控推送的区块头，挖矿
+	go cli.monitorBlockHeader()
+
+	//开启一个 go程接收区块和高度帮助挖矿
+	//go cli.startHttpServer()
+
+	//go cli.startWebsocketServer()
+
 	cli.ReceiveCMD()
 }
 
@@ -79,9 +88,9 @@ func (cli Cli) userCmdHandle(data string) {
 		cli.genesis(address, v)
 	case "generateWallet":
 		cli.generateWallet()
-	case "setRewardAddr":
-		addrss := getSpecifiedContent(data, "-a", "")
-		cli.setRewardAddress(addrss)
+	//case "setRewardAddr":
+	//	addrss := getSpecifiedContent(data, "-a", "")
+	//	cli.setRewardAddress(addrss)
 	case "importMnword":
 		mnemonicword := getSpecifiedContent(data, "-m", "")
 		cli.importWalletByMnemonicword(mnemonicword)
@@ -89,18 +98,21 @@ func (cli Cli) userCmdHandle(data string) {
 		cli.printAllAddress()
 	case "printAllWallets":
 		cli.printAllWallets()
-	case "printAllBlock":
-		cli.printAllBlock()
+	//case "printAllBlock":
+	//	cli.printAllBlock()
 	case "getBalance":
 		address := getSpecifiedContent(data, "-a", "")
 		cli.getBalance(address)
-	case "resetUTXODB":
-		cli.resetUTXODB()
+	//case "resetUTXODB":
+	//	cli.resetUTXODB()
 	case "transfer":
-		fromString := (context[strings.Index(context, "-from")+len("-from") : strings.Index(context, "-to")])
+		fromString := context[strings.Index(context, "-from")+len("-from") : strings.Index(context, "-to")]
 		toString := strings.TrimSpace(context[strings.Index(context, "-to")+len("-to") : strings.Index(context, "-amount")])
 		amountString := strings.TrimSpace(context[strings.Index(context, "-amount")+len("-amount"):])
 		cli.transfer(fromString, toString, amountString)
+	case "getBlock":
+		offset := getSpecifiedContent(data, "-o", "")
+		cli.getBlock(offset)
 	default:
 		fmt.Println("无此命令!")
 		printUsage()

@@ -10,7 +10,7 @@ func TestBytes(t *testing.T) {
 		b := jointMessage(cVersion, v.serialize())
 		t.Log("\t拼接后的字节数组为:", b)
 		t.Log("\t测试拆分功能：")
-		cmd, content := splitMessage(b)
+		cmd, content := SplitMessage(b)
 		newV := version{}
 		newV.deserialize(content)
 		t.Logf("\t命令为：%s,长度：%d ", cmd, len(cmd))

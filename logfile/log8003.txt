@@ -1,0 +1,779 @@
+[34m[INFO]: 2020/03/25 12:05:22 server.go:34:StartNode: [*] 监听IP地址: 127.0.0.1 端口号: 8003[0m
+[34m[INFO]: 2020/03/25 12:05:22 server.go:56:StartNode: [*] 你的P2P地址信息: /ip4/127.0.0.1/tcp/8003/p2p/Qme7e7jFshFTHKs67NWToKUChzcwiiy3EBrgyGSCWM1dQj[0m
+[31m[ERROR]: 2020/03/25 12:06:09 blockchain.go:175:CreateTransaction: 没有找到地址1Bu3NhMG1YPDmTjxjFtuVkJ51DcURMqAFj所对应的公钥,跳过此笔交易[0m
+[31m[ERROR]: 2020/03/25 12:06:09 blockchain.go:175:CreateTransaction: 没有找到地址1Bu3NhMG1YPDmTjxjFtuVkJ51DcURMqAFj所对应的公钥,跳过此笔交易[0m
+[31m[ERROR]: 2020/03/25 12:07:40 blockchain.go:175:CreateTransaction: 没有找到地址1Bu3NhMG1YPDmTjxjFtuVkJ51DcURMqAFj所对应的公钥,跳过此笔交易[0m
+[31m[ERROR]: 2020/03/25 12:07:40 blockchain.go:175:CreateTransaction: 没有找到地址1Bu3NhMG1YPDmTjxjFtuVkJ51DcURMqAFj所对应的公钥,跳过此笔交易[0m
+[33m[WARN]: 2020/03/25 12:09:04 wallet.go:81:storage: 钱包早已存在于数据库中！[0m
+[34m[INFO]: 2020/03/25 12:13:41 server.go:34:StartNode: [*] 监听IP地址: 127.0.0.1 端口号: 8003[0m
+[34m[INFO]: 2020/03/25 12:13:41 server.go:56:StartNode: [*] 你的P2P地址信息: /ip4/127.0.0.1/tcp/8003/p2p/QmTPRBhkfr3NpZ85BjL8bvoLxUayAAhiHc45nGN8C8vw1H[0m
+[33m[WARN]: 2020/03/25 12:14:00 wallet.go:81:storage: 钱包早已存在于数据库中！[0m
+[34m[INFO]: 2020/03/25 12:19:16 server.go:34:StartNode: [*] 监听IP地址: 127.0.0.1 端口号: 8003[0m
+[34m[INFO]: 2020/03/25 12:19:16 server.go:56:StartNode: [*] 你的P2P地址信息: /ip4/127.0.0.1/tcp/8003/p2p/QmQJPBjkKGaV6xjqZ3KLdgUGaxD3a65dc2PKGpn9CcjXS1[0m
+[34m[INFO]: 2020/03/25 12:22:49 server.go:34:StartNode: [*] 监听IP地址: 127.0.0.1 端口号: 8003[0m
+[34m[INFO]: 2020/03/25 12:22:49 server.go:56:StartNode: [*] 你的P2P地址信息: /ip4/127.0.0.1/tcp/8003/p2p/QmZykooqQri43Aqt71jYr86pgrU6zjGSrvT49S6YJ1aP4g[0m
+[34m[INFO]: 2020/03/25 12:31:36 server.go:34:StartNode: [*] 监听IP地址: 127.0.0.1 端口号: 8003[0m
+[34m[INFO]: 2020/03/25 12:31:36 server.go:56:StartNode: [*] 你的P2P地址信息: /ip4/127.0.0.1/tcp/8003/p2p/QmQzmjZsHZNk2W9znqo2pFWbSzjXyPvGsuK1gwY15CxgVt[0m
+[34m[INFO]: 2020/03/25 13:06:16 server.go:34:StartNode: [*] 监听IP地址: 127.0.0.1 端口号: 8003[0m
+[34m[INFO]: 2020/03/25 13:06:16 server.go:56:StartNode: [*] 你的P2P地址信息: /ip4/127.0.0.1/tcp/8003/p2p/QmYimCiXfDRugouD4MHsY3RFSm84nLpdgwVjPAZAjTn1L2[0m
+[31m[PANIC]: 2020/03/25 13:06:19 transaction.go:65:DeserializeTransaction: unexpected EOF[0m
+[34m[INFO]: 2020/03/25 13:09:27 server.go:34:StartNode: [*] 监听IP地址: 127.0.0.1 端口号: 8003[0m
+[34m[INFO]: 2020/03/25 13:09:27 server.go:56:StartNode: [*] 你的P2P地址信息: /ip4/127.0.0.1/tcp/8003/p2p/QmQTRmdWpCKmyB5gpy8qrgCkCKHJY3VJ33vLExfXzxQ5Xe[0m
+[34m[INFO]: 2020/03/25 13:15:22 server.go:34:StartNode: [*] 监听IP地址: 127.0.0.1 端口号: 8003[0m
+[34m[INFO]: 2020/03/25 13:15:23 server.go:56:StartNode: [*] 你的P2P地址信息: /ip4/127.0.0.1/tcp/8003/p2p/QmbVDonUXzuquSNbPJVGUiveoYgN5JX4bmCjp2Wj2v7A1A[0m
+[34m[INFO]: 2020/03/25 13:17:00 server.go:34:StartNode: [*] 监听IP地址: 127.0.0.1 端口号: 8003[0m
+[34m[INFO]: 2020/03/25 13:17:01 server.go:56:StartNode: [*] 你的P2P地址信息: /ip4/127.0.0.1/tcp/8003/p2p/QmZQgZWW7wQqmjdYReiFMg5QZYdurnMk8tSG9g5hsuC1qr[0m
+[34m[INFO]: 2020/03/25 13:20:54 server.go:34:StartNode: [*] 监听IP地址: 127.0.0.1 端口号: 8003[0m
+[34m[INFO]: 2020/03/25 13:20:55 server.go:56:StartNode: [*] 你的P2P地址信息: /ip4/127.0.0.1/tcp/8003/p2p/QmPitCon5h7PTffcuvpcwNZL5FheQPieC2AXN99Y7P9JGR[0m
+[34m[INFO]: 2020/03/25 13:21:34 server.go:34:StartNode: [*] 监听IP地址: 127.0.0.1 端口号: 8003[0m
+[34m[INFO]: 2020/03/25 13:21:34 server.go:56:StartNode: [*] 你的P2P地址信息: /ip4/127.0.0.1/tcp/8003/p2p/QmZETj6nj7VHfrzAjukNS1UGmFz617yNG9oTj8dZSuYPEh[0m
+[34m[INFO]: 2020/03/25 13:29:55 server.go:34:StartNode: [*] 监听IP地址: 127.0.0.1 端口号: 8003[0m
+[34m[INFO]: 2020/03/25 13:29:55 server.go:56:StartNode: [*] 你的P2P地址信息: /ip4/127.0.0.1/tcp/8003/p2p/QmWXrgQwip2HTmLZ8KgFDQzjoKsP2XSBR875b6MNjhqD7x[0m
+[34m[INFO]: 2020/03/25 16:13:46 server.go:34:StartNode: [*] 监听IP地址: 127.0.0.1 端口号: 8003[0m
+[34m[INFO]: 2020/03/25 16:13:46 server.go:56:StartNode: [*] 你的P2P地址信息: /ip4/127.0.0.1/tcp/8003/p2p/QmaVZjWpKLjFgmgdTUKXa19tDuP4WcAkMcLz57BYaZfh5j[0m
+[34m[INFO]: 2020/03/25 17:14:00 server.go:34:StartNode: [*] 监听IP地址: 127.0.0.1 端口号: 8003[0m
+[34m[INFO]: 2020/03/25 17:14:00 server.go:56:StartNode: [*] 你的P2P地址信息: /ip4/127.0.0.1/tcp/8003/p2p/QmdDb1C2EUpfL9LrywzrBEgUw2byX4HeMNoCUc967iby6p[0m
+[34m[INFO]: 2020/03/25 18:35:13 server.go:34:StartNode: [*] 监听IP地址: 127.0.0.1 端口号: 8003[0m
+[34m[INFO]: 2020/03/25 18:35:13 server.go:34:StartNode: [*] 监听IP地址: 127.0.0.1 端口号: 8003[0m
+[34m[INFO]: 2020/03/25 18:35:13 server.go:56:StartNode: [*] 你的P2P地址信息: /ip4/127.0.0.1/tcp/8003/p2p/QmRvpimsFAe8Vd1Sqyp7xA2Yfx5UYkLukhPujdMU5V7Lm4[0m
+[34m[INFO]: 2020/03/25 18:35:13 server.go:56:StartNode: [*] 你的P2P地址信息: /ip4/127.0.0.1/tcp/8003/p2p/QmcFAuoYFRQPR4yC2hYNfpiGdsFx7jJPGiaq73QaW7hYex[0m
+[34m[INFO]: 2020/03/25 18:35:14 server.go:89:monitorP2PNodes: ----------------------检测到网络中P2P节点变动,当前节点池存在的节点------------------[0m
+[34m[INFO]: 2020/03/25 18:35:14 server.go:91:monitorP2PNodes: |   {QmRvpimsFAe8Vd1Sqyp7xA2Yfx5UYkLukhPujdMU5V7Lm4: [/ip4/127.0.0.1/tcp/8003]}   |[0m
+[34m[INFO]: 2020/03/25 18:35:14 server.go:93:monitorP2PNodes: ----------------------------------------------------------------------------------[0m
+[34m[INFO]: 2020/03/25 18:35:14 server.go:89:monitorP2PNodes: ----------------------检测到网络中P2P节点变动,当前节点池存在的节点------------------[0m
+[34m[INFO]: 2020/03/25 18:35:14 server.go:91:monitorP2PNodes: |   {QmRvpimsFAe8Vd1Sqyp7xA2Yfx5UYkLukhPujdMU5V7Lm4: [/ip4/127.0.0.1/tcp/8003]}   |[0m
+[34m[INFO]: 2020/03/25 18:35:14 server.go:93:monitorP2PNodes: ----------------------------------------------------------------------------------[0m
+[34m[INFO]: 2020/03/25 18:35:18 server.go:89:monitorP2PNodes: ----------------------检测到网络中P2P节点变动,当前节点池存在的节点------------------[0m
+[34m[INFO]: 2020/03/25 18:35:18 server.go:91:monitorP2PNodes: |   {QmcFAuoYFRQPR4yC2hYNfpiGdsFx7jJPGiaq73QaW7hYex: [/ip4/127.0.0.1/tcp/8003]}   |[0m
+[34m[INFO]: 2020/03/25 18:35:18 server.go:91:monitorP2PNodes: |   {QmRvpimsFAe8Vd1Sqyp7xA2Yfx5UYkLukhPujdMU5V7Lm4: [/ip4/127.0.0.1/tcp/8003]}   |[0m
+[34m[INFO]: 2020/03/25 18:35:18 server.go:93:monitorP2PNodes: ----------------------------------------------------------------------------------[0m
+[34m[INFO]: 2020/03/25 18:35:18 server.go:89:monitorP2PNodes: ----------------------检测到网络中P2P节点变动,当前节点池存在的节点------------------[0m
+[34m[INFO]: 2020/03/25 18:35:18 server.go:91:monitorP2PNodes: |   {QmRvpimsFAe8Vd1Sqyp7xA2Yfx5UYkLukhPujdMU5V7Lm4: [/ip4/127.0.0.1/tcp/8003]}   |[0m
+[34m[INFO]: 2020/03/25 18:35:18 server.go:91:monitorP2PNodes: |   {QmcFAuoYFRQPR4yC2hYNfpiGdsFx7jJPGiaq73QaW7hYex: [/ip4/127.0.0.1/tcp/8003]}   |[0m
+[34m[INFO]: 2020/03/25 18:35:18 server.go:93:monitorP2PNodes: ----------------------------------------------------------------------------------[0m
+[31m[ERROR]: 2020/03/25 18:36:10 send.go:59:SendMessage: Connection failed:dial to self attempted[0m
+[36m[DEBUG]: 2020/03/25 18:36:10 send.go:64:SendMessage: Stream open faileddial to self attempted[0m
+[31m[ERROR]: 2020/03/25 18:36:10 send.go:59:SendMessage: Connection failed:failed to dial QmRvpimsFAe8Vd1Sqyp7xA2Yfx5UYkLukhPujdMU5V7Lm4: no good addresses[0m
+[31m[ERROR]: 2020/03/25 18:36:10 send.go:59:SendMessage: Connection failed:dial backoff[0m
+[36m[DEBUG]: 2020/03/25 18:36:10 send.go:64:SendMessage: Stream open faileddial backoff[0m
+[36m[DEBUG]: 2020/03/25 18:36:10 send.go:64:SendMessage: Stream open faileddial backoff[0m
+[31m[ERROR]: 2020/03/25 18:36:10 send.go:59:SendMessage: Connection failed:dial to self attempted[0m
+[36m[DEBUG]: 2020/03/25 18:36:10 send.go:64:SendMessage: Stream open faileddial to self attempted[0m
+[34m[INFO]: 2020/03/25 18:36:19 server.go:34:StartNode: [*] 监听IP地址: 127.0.0.1 端口号: 8003[0m
+[34m[INFO]: 2020/03/25 18:36:19 mine.go:26:MonitorBlockHeader: connecting to %sws://127.0.0.1:7004/ws[0m
+[35m[FATAL]: 2020/03/25 18:36:19 mine.go:30:MonitorBlockHeader: dial:dial tcp 127.0.0.1:7004: connect: connection refused[0m
+[34m[INFO]: 2020/03/25 18:37:36 server.go:34:StartNode: [*] 监听IP地址: 127.0.0.1 端口号: 8003[0m
+[34m[INFO]: 2020/03/25 18:37:36 mine.go:27:MonitorBlockHeader: connecting to %sws://127.0.0.1:7003/ws[0m
+[34m[INFO]: 2020/03/25 18:37:36 server.go:56:StartNode: [*] 你的P2P地址信息: /ip4/127.0.0.1/tcp/8003/p2p/QmaN9bWz3ng2FjGKmzAHkLiJhvEEHrGAUKojd2Ljz2zkFM[0m
+[32m[TRACE]: 2020/03/25 18:37:37 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:37:38 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:37:39 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:37:40 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:37:41 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:37:42 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:37:43 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:37:44 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:37:45 mine.go:47:func1: 本节点已接收到命令：blockHeader[0m
+[34m[INFO]: 2020/03/25 18:37:45 proof_of_work.go:172:AsyncMine: 准备挖矿...[0m
+[32m[TRACE]: 2020/03/25 18:37:45 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:37:46 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:37:47 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:37:48 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:37:49 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:37:50 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为15,已经运行5s,nonce值:1751127659090076659,当前hash:92d5253d0445a6ad5d8f0214d96ff682cb3408d2e7b6da7cda4d51cd02fd401a[0m
+[32m[TRACE]: 2020/03/25 18:37:50 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:37:51 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:37:52 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:37:53 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:37:54 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:37:55 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为15,已经运行10s,nonce值:3897202829501177805,当前hash:115230b4e6805aa0b012043ab1f9a281d2ff3f35b6427d26276dcc9e92b463ea[0m
+[32m[TRACE]: 2020/03/25 18:37:55 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:37:56 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:37:57 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:37:58 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:37:59 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:38:00 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为15,已经运行15s,nonce值:7666274518176623765,当前hash:c9075bc490316f30c9869d15ef505f16b01b847ffaa1e6c96f9a14dd9de76c7f[0m
+[32m[TRACE]: 2020/03/25 18:38:00 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:01 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:02 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:03 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:04 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:38:05 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为15,已经运行20s,nonce值:3972220120425017111,当前hash:5ab6c6ed2d4e805c7ae0d032087dd272066e67bb1a1dfd0a35a6333ad3b5594f[0m
+[32m[TRACE]: 2020/03/25 18:38:05 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:06 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:07 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:08 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:09 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:38:10 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为15,已经运行25s,nonce值:6548231231388315306,当前hash:90505ab042925d291597e7cc2146d7a26db34548ef33f7bc9810a5902174e754[0m
+[32m[TRACE]: 2020/03/25 18:38:10 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:11 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:12 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:13 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:14 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:38:15 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为15,已经运行30s,nonce值:3041359238855833099,当前hash:d48dd2c04c84fc758d7ac5d90b23b75ec0d51ec2564feb5dc2d1f543bb55b2ee[0m
+[32m[TRACE]: 2020/03/25 18:38:15 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:16 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:17 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:18 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:19 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:38:20 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为15,已经运行35s,nonce值:2545058838892089889,当前hash:7dc6b9b9d722515aa45214b65655879467fe96d7b74379becd34265d634db98c[0m
+[32m[TRACE]: 2020/03/25 18:38:20 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:21 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:22 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:23 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:24 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:38:25 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为15,已经运行40s,nonce值:8715506062965625429,当前hash:12643f7e36d27046bc646e5379c71551bd86cd092bef806145ba8b26264bd298[0m
+[32m[TRACE]: 2020/03/25 18:38:25 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:26 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:27 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:28 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:29 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:38:30 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为15,已经运行45s,nonce值:6110196114149273217,当前hash:2b4d21abd47dea5e7dfa5b0db17bc684000504073062069e3a50631753165a88[0m
+[32m[TRACE]: 2020/03/25 18:38:30 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:31 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:32 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:33 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:34 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:38:35 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为15,已经运行50s,nonce值:9005197641263047300,当前hash:1b6a4774bebbd9ef96ad75198f90f9411b5798e5cac828655096a495573a3a00[0m
+[32m[TRACE]: 2020/03/25 18:38:35 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:36 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:37 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:38 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:39 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:38:40 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为15,已经运行55s,nonce值:6554120601993130820,当前hash:faf3e75fc00ffdeb25876a3f68b647f7b4398618ae07a54117555ccf045f2ce8[0m
+[32m[TRACE]: 2020/03/25 18:38:40 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:41 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:42 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:43 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:44 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:38:45 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为15,已经运行60s,nonce值:1172941364377861713,当前hash:434e087fc6570c1572037433d2203bffb07cb9cec2de854ce2704cfe19314be1[0m
+[32m[TRACE]: 2020/03/25 18:38:45 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:46 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:47 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:48 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:49 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:38:50 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为15,已经运行65s,nonce值:1191190597949982473,当前hash:c36fde994f88cf67c72b1ba6458c7a7bff485fd6b4c973d2d4bff853c983b1ab[0m
+[32m[TRACE]: 2020/03/25 18:38:50 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:51 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:52 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:53 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:54 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:38:55 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为15,已经运行70s,nonce值:5274080419491067227,当前hash:1c35b89267cdb0f0b97e5c2de6f086a52e14b5ccae41633d74fc0307a40a6a73[0m
+[32m[TRACE]: 2020/03/25 18:38:55 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:56 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:57 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:58 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:38:59 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:39:00 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为15,已经运行75s,nonce值:1084770086936158265,当前hash:c317241b40480727133cf856e5075ac5960aeffc3409012e12d5870ae40d613f[0m
+[32m[TRACE]: 2020/03/25 18:39:00 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:01 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:02 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:03 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:04 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:39:05 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为15,已经运行80s,nonce值:2143558532006079024,当前hash:508eda2b264e81a8bf5e865eca031a2fcb46d593f44ef1f6943e8d04d928b07a[0m
+[32m[TRACE]: 2020/03/25 18:39:05 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:06 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:07 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:08 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:09 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:39:10 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为15,已经运行85s,nonce值:2283121123758941403,当前hash:66178324a4e5438681c70b0dcf0414d4ea35e25d9a9073b8f9f0744bc8cce856[0m
+[32m[TRACE]: 2020/03/25 18:39:10 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:11 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:12 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:13 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:14 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:39:15 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为15,已经运行90s,nonce值:9098685845903762248,当前hash:90ed2f620dabe70b5a09251fa04894d8e875f7185c636ad43cd289cc8ee5cda8[0m
+[32m[TRACE]: 2020/03/25 18:39:15 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:16 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:17 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:18 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:19 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:39:20 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为15,已经运行95s,nonce值:7354511962317766591,当前hash:dae46f67e6ed3e3d2d64e5d0fe1ead5a809b8bfc9e855aec583de920383619d0[0m
+[32m[TRACE]: 2020/03/25 18:39:20 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:21 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:22 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:23 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:24 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:39:25 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为15,已经运行100s,nonce值:5189285524111280021,当前hash:58d68eb6dbdaa97559fa4606b2fa500e766ce77b49da3437afdfb37317a5b3b4[0m
+[32m[TRACE]: 2020/03/25 18:39:25 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:26 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:27 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:28 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:29 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:39:30 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为15,已经运行105s,nonce值:7256839720296836188,当前hash:1b043125396c9c59f8dbd0cf56cf662cc0d62dbbadfec489d73a2883fd2ddeeb[0m
+[32m[TRACE]: 2020/03/25 18:39:30 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:31 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:32 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:33 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:34 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:39:35 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为15,已经运行110s,nonce值:5037131443009004662,当前hash:478ec6ab4f6333c94fa5468b03f1a5d7d23250c69cb316cbb4af1287650f53d2[0m
+[32m[TRACE]: 2020/03/25 18:39:35 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:36 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:37 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:38 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:39 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:39:40 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为15,已经运行115s,nonce值:9211532221450437412,当前hash:7921d6c675cc8aab77f7690fcef0ed80591ead3e7b36992b64a28518a3984af0[0m
+[32m[TRACE]: 2020/03/25 18:39:40 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:41 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:42 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:43 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:44 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:39:45 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为15,已经运行120s,nonce值:3510590976605458944,当前hash:719f6a87ff9a5e0273f8f67ce4e48b3b41beee58fd81a4170a2ed9787d413a84[0m
+[32m[TRACE]: 2020/03/25 18:39:45 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:46 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:46 mine.go:47:func1: 本节点已接收到命令：version[0m
+[32m[TRACE]: 2020/03/25 18:39:47 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:48 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:49 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:39:50 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为15,已经运行125s,nonce值:5627054878326454934,当前hash:4603111520e3740f826ac168506e4e38f97b7bde75c57f0133f11ebdbcbe8346[0m
+[32m[TRACE]: 2020/03/25 18:39:50 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:51 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:52 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:53 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:54 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:39:55 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为15,已经运行130s,nonce值:4524754968933696140,当前hash:3bd5743f8bd72870dd836253f68b9750890a31cc0080dd4362da3a49bd79124d[0m
+[32m[TRACE]: 2020/03/25 18:39:55 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:56 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:57 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:58 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:39:59 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:40:00 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为15,已经运行135s,nonce值:116460603387598930,当前hash:365301838689accd538e506c041420a3a9b588d8757c451a5e48b429aec1f567[0m
+[32m[TRACE]: 2020/03/25 18:40:00 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:01 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:02 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:03 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:04 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:40:05 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为15,已经运行140s,nonce值:1820128213960006624,当前hash:a7c407590e6c49f67fc54baf5212efede91398ba26cf9b935672eb96e5b8f53c[0m
+[32m[TRACE]: 2020/03/25 18:40:05 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:06 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:07 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:08 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:09 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:40:10 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为15,已经运行145s,nonce值:7456855185312977165,当前hash:0f4676a70f0abe449acbde6955d8ca453d7ceb3537be42b347677f76460e1f50[0m
+[32m[TRACE]: 2020/03/25 18:40:10 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:11 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:12 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:13 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:14 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:40:15 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为15,已经运行150s,nonce值:5701776399001339238,当前hash:581a5704edd3a8877f631e082b50d203aeaa7c20370bc56fcbcace2f6a6d2f8f[0m
+[32m[TRACE]: 2020/03/25 18:40:15 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:16 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:17 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:18 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:19 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:40:20 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为15,已经运行155s,nonce值:47011351073305444,当前hash:f22878dbf380698ad408aff66624a6c0674cf2e0e2e1d0f2508ccb1662ce1ae5[0m
+[32m[TRACE]: 2020/03/25 18:40:20 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:21 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:22 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:23 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:24 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:40:25 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为15,已经运行160s,nonce值:7157431776871868602,当前hash:462f015a9e9ade99b851488751d6f5f2753be90b6f7fbdce61ce7dd4b4cef37f[0m
+[32m[TRACE]: 2020/03/25 18:40:25 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:26 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:27 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:28 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:29 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:40:30 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为15,已经运行165s,nonce值:6131251832392736504,当前hash:732b916baaf36bf6dffdd3aa7ca04fb3d6ca21628d9bc31ffc0a44ff68677cd6[0m
+[32m[TRACE]: 2020/03/25 18:40:30 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:31 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:32 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:33 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:34 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:40:35 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为15,已经运行170s,nonce值:7850203376287550631,当前hash:be4ad9def7e8f53048e934763c6e5461d0ad5c399bbfc1df48fb20e8318831f0[0m
+[32m[TRACE]: 2020/03/25 18:40:35 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:36 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:37 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:38 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:39 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:40:40 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为15,已经运行175s,nonce值:4903765927876590247,当前hash:a484c56c405dada32d3e00894a237fcc29dd7cc73c4582a78fff6d6a44b632e3[0m
+[32m[TRACE]: 2020/03/25 18:40:40 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:41 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:42 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:43 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:44 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:40:45 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为15,已经运行180s,nonce值:1927895787425122259,当前hash:37ff6d85dd977f94518321bcb80112831e3c8be0506e0949a5efa4e587e185b0[0m
+[32m[TRACE]: 2020/03/25 18:40:45 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:46 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:47 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:48 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:49 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:40:50 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为15,已经运行185s,nonce值:9174181754014624432,当前hash:ab77e6fa704c734383864f17060bd37c7bf766ba0a3333f87ef9bda9f0eabba5[0m
+[32m[TRACE]: 2020/03/25 18:40:50 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:51 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:52 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:53 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:54 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:40:55 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为15,已经运行190s,nonce值:5963488372108972987,当前hash:62e6091c975cd1d9ea55cffeed10f2798b8c4d8c3707d7520abfff2d7a3001ed[0m
+[32m[TRACE]: 2020/03/25 18:40:55 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:56 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:57 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:58 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:40:59 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:41:00 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为15,已经运行195s,nonce值:138607364752442448,当前hash:2eb20dfdf6beeb425800957f0974fe3a607e32107732bfd2a5f8dd144a10e274[0m
+[32m[TRACE]: 2020/03/25 18:41:00 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:41:01 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:41:02 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:41:03 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:41:04 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:41:05 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为15,已经运行200s,nonce值:2462483124622261360,当前hash:32f0dc75aab99d18b614357da9753cccd020d959542435dc61994c32d7f5ede9[0m
+[32m[TRACE]: 2020/03/25 18:41:05 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:41:06 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:41:07 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:41:08 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:41:09 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:41:10 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为15,已经运行205s,nonce值:6413746116444547140,当前hash:111bacb6840a83d23a9d241f41aeee9045018ad4487caee809e26ecaba5c8fc9[0m
+[32m[TRACE]: 2020/03/25 18:41:10 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:41:11 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[32m[TRACE]: 2020/03/25 18:41:12 mine.go:47:func1: 本节点已接收到命令：2020-03-25 1[0m
+[34m[INFO]: 2020/03/25 18:43:04 server.go:34:StartNode: [*] 监听IP地址: 127.0.0.1 端口号: 8003[0m
+[34m[INFO]: 2020/03/25 18:43:04 mine.go:27:MonitorBlockHeader: connecting to %sws://127.0.0.1:7003/ws[0m
+[34m[INFO]: 2020/03/25 18:43:04 server.go:56:StartNode: [*] 你的P2P地址信息: /ip4/127.0.0.1/tcp/8003/p2p/QmRrFAwx6kM7LgpE1DRxe42sFJ3bH4ocd81ZFZHyvoU3mv[0m
+[32m[TRACE]: 2020/03/25 18:43:13 mine.go:50:func1: 本节点已接收到命令：blockHeader[0m
+[34m[INFO]: 2020/03/25 18:43:13 proof_of_work.go:172:AsyncMine: 准备挖矿...[0m
+[34m[INFO]: 2020/03/25 18:43:18 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为16,已经运行5s,nonce值:7107806946126403610,当前hash:5e3247d1932afe11b43878658800dd900fc9354072c226d3bcb163ccc1f59618[0m
+[34m[INFO]: 2020/03/25 18:43:23 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为16,已经运行10s,nonce值:1548624119897728360,当前hash:1560da33d752b076f97d9d02dea5637c983ff4a9900586a484e14822e7f60c78[0m
+[34m[INFO]: 2020/03/25 18:43:28 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为16,已经运行15s,nonce值:6325631335714173983,当前hash:e93330abee02592806c9aae1bcfc2c92b8f4df543bd1c37fda3feb511e63d51b[0m
+[34m[INFO]: 2020/03/25 18:43:33 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为16,已经运行20s,nonce值:2604392394446392878,当前hash:48ee6a7b657672b08eaadd0f96c90689b5fdefacf663ee530cdf265cd4a667f5[0m
+[34m[INFO]: 2020/03/25 18:43:38 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为16,已经运行25s,nonce值:8305811444083537620,当前hash:af3c201a3bff634d474a63bb0c27f1a32ede5491b14234a3b0f74cfa1391d89d[0m
+[34m[INFO]: 2020/03/25 18:43:42 proof_of_work.go:235:AsyncMine: 本用户节点已成功挖到区块!!!,高度为:16,nonce值为:4644026686866525101,区块hash为: 0000002c7cf31b54571e622cc5d2beeaccc75e03f348f2fc3eae0b11771d72f0[0m
+[34m[INFO]: 2020/03/25 18:50:02 server.go:34:StartNode: [*] 监听IP地址: 127.0.0.1 端口号: 8003[0m
+[34m[INFO]: 2020/03/25 18:50:02 mine.go:27:MonitorBlockHeader: connecting to %sws://127.0.0.1:7003/ws[0m
+[34m[INFO]: 2020/03/25 18:50:02 server.go:56:StartNode: [*] 你的P2P地址信息: /ip4/127.0.0.1/tcp/8003/p2p/QmTqUzEDjCGQzbfc8V4AbcoHp1vekDDeE6bpGtXaj7ggXv[0m
+[34m[INFO]: 2020/03/25 18:53:05 server.go:34:StartNode: [*] 监听IP地址: 127.0.0.1 端口号: 8003[0m
+[34m[INFO]: 2020/03/25 18:53:05 mine.go:27:MonitorBlockHeader: connecting to %sws://127.0.0.1:7003/ws[0m
+[34m[INFO]: 2020/03/25 18:53:05 server.go:56:StartNode: [*] 你的P2P地址信息: /ip4/127.0.0.1/tcp/8003/p2p/QmbiK4NAxN95f6P94aAMzDBgaJBJwYB6qUgjhidimP8rsP[0m
+[34m[INFO]: 2020/03/25 18:57:22 server.go:34:StartNode: [*] 监听IP地址: 127.0.0.1 端口号: 8003[0m
+[34m[INFO]: 2020/03/25 18:57:22 mine.go:27:MonitorBlockHeader: connecting to %sws://127.0.0.1:7003/ws[0m
+[34m[INFO]: 2020/03/25 18:57:22 server.go:56:StartNode: [*] 你的P2P地址信息: /ip4/127.0.0.1/tcp/8003/p2p/QmfMLWQhSjtoBRvAHQF3FHfmJbN7jJvw3ikoWSjiN3g91Y[0m
+[32m[TRACE]: 2020/03/25 18:57:31 mine.go:50:func1: 本节点已接收到命令：blockHeader[0m
+[34m[INFO]: 2020/03/25 18:57:31 proof_of_work.go:172:AsyncMine: 准备挖矿...[0m
+[34m[INFO]: 2020/03/25 18:57:36 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为19,已经运行5s,nonce值:8341330884687259530,当前hash:eb76456ae2caaf07c7d56d33735a4397f40ada06b6b3f9946ae82a5b3c753da2[0m
+[34m[INFO]: 2020/03/25 18:57:41 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为19,已经运行10s,nonce值:8840172599359849650,当前hash:a3459c9a1d0997f3714dfa0f1265553ad28d4b42983b0a08d65e62c08118a813[0m
+[34m[INFO]: 2020/03/25 18:57:46 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为19,已经运行15s,nonce值:7756519324991802350,当前hash:257195ad7d0637a5cd20a6a21a8cc6220ebcb4e36101520188552e8a093ca42d[0m
+[34m[INFO]: 2020/03/25 18:57:51 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为19,已经运行20s,nonce值:2538689500325145124,当前hash:8f5783efaa7d09df9c36f9f82d69049ee1eab1a667bee5f9804aab08261973e0[0m
+[34m[INFO]: 2020/03/25 18:57:56 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为19,已经运行25s,nonce值:5137903697681647573,当前hash:3baad310070892bb97dbfdc6d2cc2a0ae66777dfa0c71ca4293f3daded9c4f2b[0m
+[34m[INFO]: 2020/03/25 18:58:01 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为19,已经运行30s,nonce值:8671197693450008067,当前hash:3733c79ca0f34f4aa008fe4a24236f12ef8b40b20c2468774e81e3daa33295cb[0m
+[34m[INFO]: 2020/03/25 18:58:06 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为19,已经运行35s,nonce值:2881514441107146350,当前hash:a4c2cdc736b60dd0c52be38dcb2c6b8ecb85e66456e352729993043c662a18da[0m
+[34m[INFO]: 2020/03/25 18:58:11 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为19,已经运行40s,nonce值:3673366833964848530,当前hash:b82a71fa98c721af768b34270996f8362e9a4bbc23ea226b356d992495f61752[0m
+[34m[INFO]: 2020/03/25 18:58:16 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为19,已经运行45s,nonce值:1705716784551982670,当前hash:5298cc969c61665b6c5d4768e04519161094a0e0651fe2b3fc3f8ee8a3ac67a3[0m
+[34m[INFO]: 2020/03/25 18:58:21 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为19,已经运行50s,nonce值:1028774480521741608,当前hash:5f9d27998efc9bb6e22e5101e483c18828df56b3c5e4bb078bea35741d75dd70[0m
+[34m[INFO]: 2020/03/25 18:58:26 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为19,已经运行55s,nonce值:9021444467158961234,当前hash:3faedee9499b4ecdb6cc8cfd2a75ac4f0b9a740082a802800104b9e02fb2ed70[0m
+[34m[INFO]: 2020/03/25 18:58:31 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为19,已经运行60s,nonce值:7467085708616938816,当前hash:4dc1acb05bd7ce3b964c909e9b9e63606253779675c1ec30dc4e571f2ce6d1cd[0m
+[34m[INFO]: 2020/03/25 18:58:36 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为19,已经运行65s,nonce值:6270486888524616859,当前hash:3ce74fff1510b91cfb41edbf2af57718bffa51b8bdc3c632a858014ae5d2838d[0m
+[34m[INFO]: 2020/03/25 18:58:41 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为19,已经运行70s,nonce值:3974663550622041797,当前hash:e98b0ebed49e0b652408e7a66a6be6e1f5b4968309ae7f383d1557586ca3046d[0m
+[34m[INFO]: 2020/03/25 18:58:46 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为19,已经运行75s,nonce值:7916317979360664893,当前hash:0734decaa8c9870a6ccdf3d2a1ee6aa5e42a3d10d8c990079496e84e9db99d20[0m
+[34m[INFO]: 2020/03/25 18:58:47 proof_of_work.go:235:AsyncMine: 本用户节点已成功挖到区块!!!,高度为:19,nonce值为:5964650970334726696,区块hash为: 000000cb6eada6778c7bc4447effd3a2b478b698197bcc920802d9501c982010[0m
+[34m[INFO]: 2020/03/25 19:01:29 server.go:34:StartNode: [*] 监听IP地址: 127.0.0.1 端口号: 8003[0m
+[34m[INFO]: 2020/03/25 19:01:29 mine.go:27:MonitorBlockHeader: connecting to %sws://127.0.0.1:7003/ws[0m
+[34m[INFO]: 2020/03/25 19:01:29 server.go:56:StartNode: [*] 你的P2P地址信息: /ip4/127.0.0.1/tcp/8003/p2p/QmYJsPp4eSfPedTpLomkAT3zpGHvHB3BMeJ4XgyusxbSMv[0m
+[34m[INFO]: 2020/03/25 19:18:59 server.go:34:StartNode: [*] 监听IP地址: 127.0.0.1 端口号: 8003[0m
+[34m[INFO]: 2020/03/25 19:18:59 mine.go:27:MonitorBlockHeader: connecting to %sws://127.0.0.1:7003/ws[0m
+[34m[INFO]: 2020/03/25 19:18:59 server.go:56:StartNode: [*] 你的P2P地址信息: /ip4/127.0.0.1/tcp/8003/p2p/QmP3pg38EKqNjSNyuyvqFbYgKQapwmJ2G3tALt8pbsnLvV[0m
+[32m[TRACE]: 2020/03/25 19:19:21 mine.go:50:func1: 本节点已接收到命令：blockHeader[0m
+[34m[INFO]: 2020/03/25 19:19:21 proof_of_work.go:172:AsyncMine: 准备挖矿...[0m
+[34m[INFO]: 2020/03/25 19:19:26 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行5s,nonce值:6498561648009270136,当前hash:5fa88847d3f41d65d79d2d6c9e846cf8a9919d07d959c2405848fa4cf9698f1e[0m
+[34m[INFO]: 2020/03/25 19:19:31 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行10s,nonce值:6184710279119041191,当前hash:6aae1edefa026d712bc4ca235b644f65ffabb2aef090c077bef95042975cc6a6[0m
+[34m[INFO]: 2020/03/25 19:19:36 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行15s,nonce值:5168685955197479037,当前hash:1703b197e164fa018f512a0efffe3f84bd70b56b62dc6d346a83be381344d7d1[0m
+[34m[INFO]: 2020/03/25 19:19:41 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行20s,nonce值:2048559452949246024,当前hash:f9a1cc70484e3fe72b379dae7065096feb3cb646e7875fc51144c7e7878f1e0a[0m
+[34m[INFO]: 2020/03/25 19:19:46 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行25s,nonce值:7219822749873173034,当前hash:8430a5ae493d0c7a5b0b41c0955444dfdc09e75d2c51708b2b2d02282a85ac4b[0m
+[34m[INFO]: 2020/03/25 19:19:51 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行30s,nonce值:7550682683610184034,当前hash:1fcdeac57fcfe046a5d622e129c926893ea61acf88998c3c0bc0c49856a89399[0m
+[34m[INFO]: 2020/03/25 19:19:56 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行35s,nonce值:4468707634407799924,当前hash:2b8290fb0f8ae72a48470261b66a586662a6b71b7dcbba22bfe9f1b3226d385d[0m
+[34m[INFO]: 2020/03/25 19:20:01 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行40s,nonce值:3426314495091525944,当前hash:5c9d1ed118ea10c6c9a879046f9e92bed293dfbef0d2246e445372593829d55a[0m
+[34m[INFO]: 2020/03/25 19:20:06 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行45s,nonce值:6786660324310235768,当前hash:a48e1947b9b17e6f4b28caa41c4a07d7d61686d369e2ef9df06ac0f5cabf4f3d[0m
+[34m[INFO]: 2020/03/25 19:20:11 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行50s,nonce值:6758451976752398848,当前hash:52ab29b5d32956a7282fa0162c4901368ecde733dca2f79c871a55597598921d[0m
+[34m[INFO]: 2020/03/25 19:20:16 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行55s,nonce值:3133652125575788487,当前hash:68652077f82451be6a54875c0af10244659cebe595012c34123dc3e751e5d766[0m
+[34m[INFO]: 2020/03/25 19:20:21 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行60s,nonce值:2083422011848811489,当前hash:e3d548e662a10f37387a64a39c9b027e4dbad0fd47fa31754bf698b0f128c780[0m
+[34m[INFO]: 2020/03/25 19:20:26 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行65s,nonce值:1705586450693843654,当前hash:4df015d9be424b5cfe8a541bc78d9d267cbeaacbb40dda31dfc79245f4bf987d[0m
+[34m[INFO]: 2020/03/25 19:20:31 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行70s,nonce值:1773553244826913289,当前hash:41039b9cd1194f657d5df17ad72cbab212a7dd415feb14e531005dec32b95295[0m
+[34m[INFO]: 2020/03/25 19:20:36 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行75s,nonce值:7474241880995191296,当前hash:3d9590374ae21de153a6f6f28299b835f608ba4b52659673ee58abeca9d573fe[0m
+[34m[INFO]: 2020/03/25 19:20:41 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行80s,nonce值:1357378698379694600,当前hash:d07b049e55a782687ec5e9ba90b6b207be4408bbecd77da18ac66c2f416d63f2[0m
+[34m[INFO]: 2020/03/25 19:20:46 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行85s,nonce值:4501741947332041529,当前hash:de54e85eea825ae5a52303d0b7e9e0e122ab09f699a9d06da2847f314053fcf4[0m
+[34m[INFO]: 2020/03/25 19:20:51 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行90s,nonce值:9004313308409256541,当前hash:2c8da007a30842d582e2739c535278e0ed224a7ff3962e9c82f5a79d2de17e08[0m
+[34m[INFO]: 2020/03/25 19:20:56 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行95s,nonce值:1497693597750794434,当前hash:6ebffa46a0d685c351cd6ea281659e144e159021f2d07b43b5a4e73330799238[0m
+[34m[INFO]: 2020/03/25 19:21:01 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行100s,nonce值:5235428783822558312,当前hash:ec20fd2be6690e4559dc5eeac5eba3cf6a9e3e7d47d306e8d13495d7e9a5a659[0m
+[34m[INFO]: 2020/03/25 19:21:06 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行105s,nonce值:461678038005668410,当前hash:2a4423be36743a82d6758fe079a742bab68cf4b41944c88bb6f1042cb0cb420e[0m
+[34m[INFO]: 2020/03/25 19:21:11 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行110s,nonce值:8479575270935202675,当前hash:91bdf28bc096b22d5bf48e522cc20c59bef604e5fe712e818042ebfc9da3cee3[0m
+[34m[INFO]: 2020/03/25 19:21:16 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行115s,nonce值:5458882362468598394,当前hash:8a1f342a80a578939273a181fb6fbf790104ef5ba3d54269c94cd023e1f4822f[0m
+[34m[INFO]: 2020/03/25 19:21:21 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行120s,nonce值:7569725456589938462,当前hash:a821181dfa4c2c1329660490434312b1414a07ff5e27e425d4afbaa8d8cc85fc[0m
+[34m[INFO]: 2020/03/25 19:21:26 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行125s,nonce值:794281838008809454,当前hash:33b0df114ca54ed763221bdc98af2f9f81c66636e55451c215e4c26e904a523c[0m
+[34m[INFO]: 2020/03/25 19:21:31 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行130s,nonce值:3932315316171938769,当前hash:055e61b2f8d5fe2005d22eeb26d2e0a8ab39a5e5c3d3ea979a468cd2afe4e4d0[0m
+[34m[INFO]: 2020/03/25 19:21:36 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行135s,nonce值:710663100136948637,当前hash:87dfc8f835b266eca0a31b17b9b09935666bfeb65baf8f0dcffe5a3edfda3817[0m
+[34m[INFO]: 2020/03/25 19:21:41 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行140s,nonce值:9096101695371299737,当前hash:d45f71dd3808b6d4669264fb775762ccd132034bafaf0b045d2034d1a621b721[0m
+[34m[INFO]: 2020/03/25 19:21:46 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行145s,nonce值:3164727405305351946,当前hash:19e2b8f88a951e67dfb65a6ecd989b7debdc276f6d356c717af61e6b72d22293[0m
+[34m[INFO]: 2020/03/25 19:21:51 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行150s,nonce值:362908690955843773,当前hash:2571ade928059f739d257fa0e4b6377d6deeb9b0bd88397236a9f1c572a40e4a[0m
+[34m[INFO]: 2020/03/25 19:21:56 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行155s,nonce值:3620305473918206347,当前hash:ebd4002266190fe42165cfdec69f8876898ee2037ae2ddf87d5e4d72cadb2045[0m
+[34m[INFO]: 2020/03/25 19:22:01 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行160s,nonce值:1236233751691185868,当前hash:89bc74ead20c44084501ee8f63c025f726733c82f823a8443837fdc9b7e62b37[0m
+[34m[INFO]: 2020/03/25 19:22:06 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行165s,nonce值:7698363433752107439,当前hash:c842f4b61539beb2af268d1870b9a2894ede3e08eac2b43468632bcf9cc4d03b[0m
+[34m[INFO]: 2020/03/25 19:22:11 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行170s,nonce值:7291818023027453764,当前hash:681583393d95a71babbe7cfc043ea196be48f232a6a36b96898da81f0e8d0694[0m
+[34m[INFO]: 2020/03/25 19:22:16 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行175s,nonce值:4464774707388801961,当前hash:a6775a101373b0ce999993afffd716c3eaa588b938cfe8799dc5975d466b52df[0m
+[34m[INFO]: 2020/03/25 19:22:21 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行180s,nonce值:9172763535991068620,当前hash:9526f82ceb33c38bd1ac376186e4c7ff7d980693a39b0c87517f12ba6c789543[0m
+[34m[INFO]: 2020/03/25 19:22:26 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行185s,nonce值:505753185793489638,当前hash:fba9a618fa67e7e9288c9762c67362c4ba67dc698c5a787300867b05069a3a15[0m
+[34m[INFO]: 2020/03/25 19:22:31 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行190s,nonce值:5507225396363857679,当前hash:fefdd9ab1fedf24e15917d99559f562d444f6f1e6b86bd6c0d00e059b6ff30b0[0m
+[34m[INFO]: 2020/03/25 19:22:36 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行195s,nonce值:8434479914545610578,当前hash:9561c756fc0ce3145c1e8656a4a2fbf5ffbecc1e3965e9fecaed29072b371a10[0m
+[34m[INFO]: 2020/03/25 19:22:41 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行200s,nonce值:3106062329090797309,当前hash:b0ead6f69b7577bf59d97112265f1b2595471e0ecb9189b34eb91462f0e31da8[0m
+[34m[INFO]: 2020/03/25 19:22:46 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行205s,nonce值:2842830114945607303,当前hash:f2682e694e630a51d5847efaa600419e778cb1bb608a64d7ce294c6f6a98b8d6[0m
+[34m[INFO]: 2020/03/25 19:22:51 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行210s,nonce值:769943943469258949,当前hash:3200b9be8eea7e5cc2252e11a21027d2a3fd28c44d5a935f8adf14f6036663ae[0m
+[34m[INFO]: 2020/03/25 19:22:56 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行215s,nonce值:991325231963509856,当前hash:4a9a9d4dc95633f69f7951623db30d814cb5e698526dac05c3fae175dc0b6e7d[0m
+[34m[INFO]: 2020/03/25 19:23:01 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行220s,nonce值:4802494755699134832,当前hash:b69b2b697ccba90910365ec9e2fa3a2d6b89fe2fa0cef601ba3072ae1d9d5b6f[0m
+[34m[INFO]: 2020/03/25 19:23:06 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行225s,nonce值:902649730880241701,当前hash:22f432db18089461541c496f5719ddb397f338e03d27c120dbb946fe2b3c9327[0m
+[34m[INFO]: 2020/03/25 19:23:11 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行230s,nonce值:2983699477197849894,当前hash:55fe1b468550feb41d157fbc56522842f3d0f56798906e6e9e8934ce1fd20639[0m
+[34m[INFO]: 2020/03/25 19:23:16 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行235s,nonce值:7470209592354178598,当前hash:d2224973a61f26793006edee088922b7d870e8cb90b0e9d4421a5bc47b5fe794[0m
+[34m[INFO]: 2020/03/25 19:23:21 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行240s,nonce值:7000723284404297423,当前hash:846052af2fa35e5eefb16e8393c1292537f61c3848d568514d17d0e57bb378a6[0m
+[34m[INFO]: 2020/03/25 19:23:26 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行245s,nonce值:4490772877354134865,当前hash:343b6b1d5d11283f88d5d07fafbb9d79b01b85840ef5bfa2adce7e75ae6bec86[0m
+[34m[INFO]: 2020/03/25 19:23:31 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行250s,nonce值:8770482723809969418,当前hash:7b69b56f8cce1ed37f99031dc67b435d6052f927cbbe56518611cff5fa9b01dd[0m
+[34m[INFO]: 2020/03/25 19:23:36 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行255s,nonce值:1180730963478489695,当前hash:4d93f7bf50ed003233adaae8b0e0835b33b9138c4e8de64a3252bcc221d951f7[0m
+[34m[INFO]: 2020/03/25 19:23:41 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行260s,nonce值:4684335837829166788,当前hash:1f6652726180b66ec151bfd710d0322e937bda2f6768124bfc1e556817f06f86[0m
+[34m[INFO]: 2020/03/25 19:23:46 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行265s,nonce值:6163626188215098841,当前hash:3ed96911145b6820ea4d1814f04c9f94cdf0a4ba38135a89bde7055e397f7e69[0m
+[34m[INFO]: 2020/03/25 19:23:51 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行270s,nonce值:518415418440199687,当前hash:48af8874ee593a23a3d8d27f626ad316c6e5045e9a4e5e6f8f97b56a42f36749[0m
+[34m[INFO]: 2020/03/25 19:23:56 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行275s,nonce值:3250097752950312237,当前hash:e102f44f981510a70b5f4c0fbadb37e1b09357772db4dee9529e6d068200eeb2[0m
+[34m[INFO]: 2020/03/25 19:24:01 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行280s,nonce值:2336067440999923001,当前hash:05d9e01b05c21f2db9faa353dd3a6fce3ed2902697db76b7050b8fce302b011e[0m
+[34m[INFO]: 2020/03/25 19:24:06 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行285s,nonce值:2505869332345477438,当前hash:362ef626520d175768f3d55f2ccfe2242b67325f2dce21e869058f0d51a896c5[0m
+[34m[INFO]: 2020/03/25 19:24:11 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行290s,nonce值:7893858678813811628,当前hash:0104b83936e1a244ca2f3f3545011def0511a15cb32e0d1a713e16ceb0e9b1c4[0m
+[34m[INFO]: 2020/03/25 19:24:16 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行295s,nonce值:7097426009422415437,当前hash:5e76a659a126621c831213cc226acd488d38bcb73022788902bae2f4139688fc[0m
+[34m[INFO]: 2020/03/25 19:24:21 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行300s,nonce值:1667379427126371099,当前hash:0f4fa297e35b18129d229ff7e0b7d2e3f05ff91f6a095b3dd957a1097fa28dac[0m
+[34m[INFO]: 2020/03/25 19:24:26 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行305s,nonce值:7733812940292703935,当前hash:65360958f1200d8a30a2edb2d2ea88234e4cda601bf3158f8b30cbc0336ffacb[0m
+[34m[INFO]: 2020/03/25 19:24:31 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行310s,nonce值:2333985265675585343,当前hash:fa1a496ec9295df426785b56b28b8baaacb66d97c90152e2930c9890aeb44bbf[0m
+[34m[INFO]: 2020/03/25 19:24:36 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行315s,nonce值:3518523719265180902,当前hash:31026c36285d18a12f652e5007a9ff2a87d8e4b3e230c756da0787208bc9bf57[0m
+[34m[INFO]: 2020/03/25 19:24:41 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行320s,nonce值:2975645578517829668,当前hash:e2969b919a96d0732c47595fcc304cebe0927e1afc6819f59d759f05e7f63d8e[0m
+[34m[INFO]: 2020/03/25 19:24:46 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行325s,nonce值:8249649306573043071,当前hash:58828a6014abfdab2277c1fb141cf3f6be588dc3ddd9b44c7769b1bca7ec75c3[0m
+[34m[INFO]: 2020/03/25 19:24:51 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行330s,nonce值:3883847071949061009,当前hash:1b9ee30a3d4119b173f17568dc77d921ddb85333908db435c2b1d210710e53f6[0m
+[34m[INFO]: 2020/03/25 19:24:56 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行335s,nonce值:1257623743327798933,当前hash:0c60d180683c18e9d98e066200d5b3501d024dab921327e65faf4cee07dd989f[0m
+[34m[INFO]: 2020/03/25 19:25:01 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行340s,nonce值:1648880334010171088,当前hash:8389761601e1e731f869ebae4a985f6dc95dc1257f5e1d75b92db433b4ee5214[0m
+[34m[INFO]: 2020/03/25 19:25:06 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行345s,nonce值:2567427133715352603,当前hash:d2419154c57531f7e65ba4e518135d2f0e58e840f482cc870a35637ddde8222f[0m
+[34m[INFO]: 2020/03/25 19:25:11 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行350s,nonce值:2463485502421410385,当前hash:f8a056c79451a6d9ae88da95c210f167c4db1893a899c440f3442347f21a9962[0m
+[34m[INFO]: 2020/03/25 19:25:16 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行355s,nonce值:8106875303011200674,当前hash:48ec7998a5059643274a468c1ee8f92acc0677d7514afc76a2549f4413f054e9[0m
+[34m[INFO]: 2020/03/25 19:25:21 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行360s,nonce值:260148137145948295,当前hash:b45811c36b97ba6e2ceeba0c55461281d8f8c0f41bfbab5f3cc31774d9fd301d[0m
+[34m[INFO]: 2020/03/25 19:25:26 proof_of_work.go:181:func1: 正在挖矿,挖矿区块高度为20,已经运行365s,nonce值:8136365563863286340,当前hash:e3a56452cfbd826d98acb797428c2a46d67cccfca6bc9f47617980fcce407809[0m
+[34m[INFO]: 2020/03/25 19:25:31 proof_of_work.go:235:AsyncMine: 本用户节点已成功挖到区块!!!,高度为:20,nonce值为:246085345148322160,区块hash为: 000000afb5b95e1f013f4ebcc4cb61e91354d1634e177d8553355afc7fa1e194[0m
+[34m[INFO]: 2020/04/03 16:21:57 server.go:34:StartNode: [*] 监听IP地址: 127.0.0.1 端口号: 8003[0m
+[34m[INFO]: 2020/04/03 16:21:57 mine.go:28:MonitorBlockHeader: connecting to %sws://127.0.0.1:7003/ws[0m
+[34m[INFO]: 2020/04/03 16:21:58 server.go:56:StartNode: [*] 你的P2P地址信息: /ip4/127.0.0.1/tcp/8003/p2p/QmWgciTP34rk2m4eXNQeX5rZ178ZMb4CjxUrRHR7K5QXX7[0m
+[32m[TRACE]: 2020/04/03 16:26:31 mine.go:51:func1: 本节点已接收到命令：blockHeader[0m
+[34m[INFO]: 2020/04/03 16:26:31 proof_of_work.go:174:AsyncMine: 准备挖矿...[0m
+[34m[INFO]: 2020/04/03 16:26:36 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行5s,nonce值:8403650780869291256,当前hash:3efb11fd6425691263c4f438dedcb341fc488bd96a920134df07a896c3533da3[0m
+[34m[INFO]: 2020/04/03 16:26:41 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行10s,nonce值:4021793733794379568,当前hash:8e91ee85af0c3fd0c822d819c82511b75a6e950a6a39a707e7f58d8ebd5b9207[0m
+[34m[INFO]: 2020/04/03 16:26:46 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行15s,nonce值:2615533864781718582,当前hash:bb626d7f5b1631391b90b4350985964a10291a5d8f1f57fefdc189ff09500c76[0m
+[34m[INFO]: 2020/04/03 16:26:51 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行20s,nonce值:4694791465559722794,当前hash:dab5880d970fbd3a6932dea2de404abb6076e55a14cd2971bd0f912293bded06[0m
+[34m[INFO]: 2020/04/03 16:26:56 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行25s,nonce值:3869543958259345327,当前hash:e571cc42199f2e3c9c48fd5240295a711e2b884ca717046f61d6c736630d1ffd[0m
+[34m[INFO]: 2020/04/03 16:27:01 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行30s,nonce值:7298469160515777760,当前hash:ebf120f07836839ab01c2e2e1fc7f6e360b2f9e4f883f1c527b8ffef81b597ad[0m
+[34m[INFO]: 2020/04/03 16:27:06 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行35s,nonce值:7694945970061977234,当前hash:ee5a012b62bcfea23b1a84d16ebb626d4685b06c5229cdbedd0fc7b856cd9132[0m
+[34m[INFO]: 2020/04/03 16:27:11 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行40s,nonce值:1104396232434334367,当前hash:5afb375aa336774206d91a6a208ceeef41ab89a6609d37b9a199d0309ab42f96[0m
+[34m[INFO]: 2020/04/03 16:27:16 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行45s,nonce值:142056793899862945,当前hash:34f00121a573f593a8a61757bce83558357b8e5a9bd06a5fe7b762c807840122[0m
+[34m[INFO]: 2020/04/03 16:27:21 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行50s,nonce值:4271311072818316972,当前hash:2c5df334c2334cc79a663ac87a38bb7136539fdf9e0aaf452ee805e35e33344b[0m
+[34m[INFO]: 2020/04/03 16:27:26 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行55s,nonce值:8719094817229080881,当前hash:e375cfd343f6805dd996c25093d2a4612a924ca917e60615a172242638af3892[0m
+[34m[INFO]: 2020/04/03 16:27:31 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行60s,nonce值:4310159799598361889,当前hash:a0df2c75aac37f4861409aba76580a18df784ec8b365f79a2340d0d7be934d07[0m
+[34m[INFO]: 2020/04/03 16:27:36 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行65s,nonce值:7602710615104736973,当前hash:e0a40e46eb8bb713a5cbaef80dd87f384e96ecee6ad09a1fabf57c51e7dbe050[0m
+[34m[INFO]: 2020/04/03 16:27:41 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行70s,nonce值:6586352333778063750,当前hash:a45375677f09ba3b40043457f317be18e4639219f2921ffb971181ec125c848d[0m
+[34m[INFO]: 2020/04/03 16:27:46 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行75s,nonce值:2969208770364747337,当前hash:15b5cb603c959eb180ba7391cc0cc9f9042ac5424316a496443028f53e7143a0[0m
+[34m[INFO]: 2020/04/03 16:27:51 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行80s,nonce值:5243135699463940398,当前hash:b6f17f7f8cba5bff95640c19bf512bd70c51903ed5f02cc3911b617c7819ddd9[0m
+[34m[INFO]: 2020/04/03 16:27:56 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行85s,nonce值:1321865510782879293,当前hash:e21c6ce008ff8a2026ddf25dbbe06dfc48faacf6afe201f4fa034c38d7820d95[0m
+[34m[INFO]: 2020/04/03 16:28:01 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行90s,nonce值:186269634687053440,当前hash:976ee7fdafc0daa49f587ce64a708eb80fb5b1f42f9e265559fb9ca41f2c98d9[0m
+[34m[INFO]: 2020/04/03 16:28:06 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行95s,nonce值:2136213479819860711,当前hash:2c6030b0a59b7a46b11ba96fc4511e5db63350dc4731ea85e4df0d398804b770[0m
+[34m[INFO]: 2020/04/03 16:28:11 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行100s,nonce值:74756757397255743,当前hash:fc4764a5a31b128ab18b52c7c6214234913131953cf7715ed14b3717fa6e85b5[0m
+[34m[INFO]: 2020/04/03 16:28:16 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行105s,nonce值:3866354883416658759,当前hash:3ca371613804b98ae056e6f8362ae133b69da69ee1e38321169af08e377df553[0m
+[34m[INFO]: 2020/04/03 16:28:21 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行110s,nonce值:127782727135489627,当前hash:78558c46a11087399b37cf83b990a57b9cfca780d5c1f0ca8bb314ff66043daf[0m
+[34m[INFO]: 2020/04/03 16:28:26 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行115s,nonce值:3081774947923501482,当前hash:500e5928becc97cbc113075fd413ac880e0ea5fe470142a44ea0b8adb538a901[0m
+[34m[INFO]: 2020/04/03 16:28:31 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行120s,nonce值:7134404892211592299,当前hash:dc678513a9602b5f79b8fac00f925ec7deda88d95379e7bc1dacf550b0972510[0m
+[34m[INFO]: 2020/04/03 16:28:36 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行125s,nonce值:6111788268892481079,当前hash:09ddff4f478069479a453f3ac3af2df0c571ce247e591ab80e07d4b3935597e8[0m
+[34m[INFO]: 2020/04/03 16:28:41 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行130s,nonce值:545669664687564169,当前hash:eece09913e8f5c32457b9e3af0bca6ea1aa97f9f34d23729c20fc5cc97f5f5bd[0m
+[34m[INFO]: 2020/04/03 16:28:46 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行135s,nonce值:951118804256555446,当前hash:dfa532089d072a05894041dbe35e1b1041c0af5f6f202d956941c22fbf369591[0m
+[34m[INFO]: 2020/04/03 16:28:51 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行140s,nonce值:2497065056246229502,当前hash:f1d721bdabf9a7807a98141adf749da6923aca224cdaeeadc8931781272b9bfd[0m
+[34m[INFO]: 2020/04/03 16:28:56 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行145s,nonce值:3821084842438186338,当前hash:f69e88047ce25aaca8409cc5128cb4420f03505416c4e5be21bf22ef1a041d80[0m
+[34m[INFO]: 2020/04/03 16:29:01 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行150s,nonce值:9073250091384050651,当前hash:ef3eae6cba71beb2a180894e6dc8eec05e3487a82a210bdbd4b329f2aac3c04b[0m
+[34m[INFO]: 2020/04/03 16:29:06 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行155s,nonce值:6075299045495124166,当前hash:274b2cd976880a20501a1e63e06e763da8b52543c6edf49fbe9566230b32ac4b[0m
+[34m[INFO]: 2020/04/03 16:29:11 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行160s,nonce值:210827621498456124,当前hash:202e4125853783b8c79fdef66bbc29dafb3c62a1037b8cf55892f4da5d4bbb1d[0m
+[34m[INFO]: 2020/04/03 16:29:16 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行165s,nonce值:8765935161806147232,当前hash:7db7b0e8c226eb8b786657add6aeed76dcea578c08c6ed8e36c26c2862960940[0m
+[34m[INFO]: 2020/04/03 16:29:21 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行170s,nonce值:4555016776985026672,当前hash:48ebdf7ecba1945509aa45ff40f2793db22afc7da53c7e8e7aef2c5e481188ba[0m
+[34m[INFO]: 2020/04/03 16:29:26 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行175s,nonce值:4729807951155808414,当前hash:cddaced7300ec38be186db77d687c23d40554e4956b7639940c2231d71422903[0m
+[34m[INFO]: 2020/04/03 16:29:31 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行180s,nonce值:4878484995340064050,当前hash:6b6a18f6ca6ab8a3c498a1be4e38c3380ba60f4b9eba7b1588061f4d1396b6e6[0m
+[34m[INFO]: 2020/04/03 16:29:36 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行185s,nonce值:3795787025955851817,当前hash:baead54aaccd1889ec1301510ecf421b7b7e68f80a8609870c903793a5dce045[0m
+[34m[INFO]: 2020/04/03 16:29:41 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行190s,nonce值:4589156357638874281,当前hash:5a15b2b1b8a357130884e9843ddd2f33dfe5273608eaa466ee7a4363b73b4da1[0m
+[34m[INFO]: 2020/04/03 16:29:46 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行195s,nonce值:6185336407270223641,当前hash:0578bfff2c247e72b852cf86a5d7049126b71aa999a2b861772e8474f14c9def[0m
+[34m[INFO]: 2020/04/03 16:29:51 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行200s,nonce值:743680955204903127,当前hash:b7fc1dee5dd06399448756ae932834895fbf14359f14511bd954d768e8414b49[0m
+[34m[INFO]: 2020/04/03 16:29:56 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行205s,nonce值:414146866670860305,当前hash:211bd198980af2610fc725ef44215959577d0bd36468c91ecbceef765cd9457a[0m
+[34m[INFO]: 2020/04/03 16:30:01 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行210s,nonce值:6328876149003977707,当前hash:b6561e311bbc9b5668b24ec1102b7ce5b40ef5b99a19d6b6d6eb4063abe481e7[0m
+[34m[INFO]: 2020/04/03 16:30:06 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行215s,nonce值:2205970318557281832,当前hash:b0b33b756bebbe3b83adf39fb2bf2d821b5b6fb5c342efbc7e02c0ab7dbcc154[0m
+[34m[INFO]: 2020/04/03 16:30:11 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行220s,nonce值:1452129357635558071,当前hash:94226987b56a53b724a91f4253c2db51b0e44481b51e4a3c9de21a992b805560[0m
+[34m[INFO]: 2020/04/03 16:30:16 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行225s,nonce值:2600553527560786983,当前hash:d6dbf463a7fe0ffc11d07bfcb0fb6ebe9e51b10dff000576a549fdf9d44832ec[0m
+[34m[INFO]: 2020/04/03 16:30:21 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行230s,nonce值:4620230203178273796,当前hash:45493f75f2b4b84cb02944ffd09ba2744275930fed1681714ba5128d5b46685a[0m
+[34m[INFO]: 2020/04/03 16:30:26 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行235s,nonce值:6397273224954438254,当前hash:711dfb968eb5834fd35852804c29d705ba17dbba5b80970e457aa153a2b2c61c[0m
+[34m[INFO]: 2020/04/03 16:30:31 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行240s,nonce值:3040128500751554949,当前hash:491ff60c91a05bf591ee0ab4632727045b60e213434419765ad7b7e1b54f18cf[0m
+[34m[INFO]: 2020/04/03 16:30:36 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行245s,nonce值:8870488633365910593,当前hash:af6d201a1444ac07a18e3400f8166a078a123b3de62d14b8f219ad9ce5e4a9f1[0m
+[34m[INFO]: 2020/04/03 16:30:41 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行250s,nonce值:6661487851810113490,当前hash:5a978a826499002e9b596e12298560a7ae2a9dc3d74ad70e54eb3bc60804d392[0m
+[34m[INFO]: 2020/04/03 16:30:46 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行255s,nonce值:2683091279656203646,当前hash:5c663d129f792fcd167c0ff7645b13982c68dbd109d300f2c7ec26878bfa3739[0m
+[34m[INFO]: 2020/04/03 16:30:51 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行260s,nonce值:8250577107916471508,当前hash:a074245e3dc34e4281c0d224acf64209a4c1f2e976321b802e80158ae54c13ee[0m
+[34m[INFO]: 2020/04/03 16:30:56 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行265s,nonce值:6725294261123367269,当前hash:b1e31e2ac175a81f5ac4f948365fdcfa50456455e36926d1e0193d2d8c6b1358[0m
+[34m[INFO]: 2020/04/03 16:31:01 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行270s,nonce值:2078319079993642590,当前hash:f92910697d7c47308d4e882bae78e0140ff34906dbeb8b4f49d6d2149eb8ce6d[0m
+[34m[INFO]: 2020/04/03 16:31:06 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行275s,nonce值:3095141328541427095,当前hash:cedcfec619ea8979a9ff1940828d96434639a72a1c2046fb08581b6768ef34ae[0m
+[34m[INFO]: 2020/04/03 16:31:11 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行280s,nonce值:4853623596054051417,当前hash:be16a9035c87844e4eb76b66e5ae264ad5b67e13c25f732bbd46e0aa100d64e0[0m
+[34m[INFO]: 2020/04/03 16:31:16 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行285s,nonce值:263807832467142999,当前hash:bae15576c89e1652c3b9bac377553b14b93fd86e3ee51f2703eaf7549c813342[0m
+[34m[INFO]: 2020/04/03 16:31:21 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行290s,nonce值:6016219916113761950,当前hash:548e5ad47e11425807220ce34cec032574de0fb1ae21456683085ce916ed766a[0m
+[34m[INFO]: 2020/04/03 16:31:26 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行295s,nonce值:9137762225992686021,当前hash:00458d99f2368d3983e6c0c1eb34f381bc8339f27f2634f2f19a2c51b6344e9b[0m
+[34m[INFO]: 2020/04/03 16:31:31 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行300s,nonce值:8300826501527111211,当前hash:f3b5e13c86be3450323ec6d943101eef0343d67d1793b6e4cf0d5da752244a5d[0m
+[34m[INFO]: 2020/04/03 16:31:36 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行305s,nonce值:1264528871046135683,当前hash:60f46da3b8f57987409db090ec0b98a128797822430b17963a362984ca95d75c[0m
+[34m[INFO]: 2020/04/03 16:31:41 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行310s,nonce值:4959813460198909364,当前hash:dde5ffaa35ea8ebfcf709c7833fa39e0c7c86ece807b08c93e77f1be1a06ae6f[0m
+[34m[INFO]: 2020/04/03 16:31:46 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行315s,nonce值:314040976557323581,当前hash:ccbcbf8aced9c3ebeb363a4a7bd445c944dffe1c4e16a0cad51bd5290dd42d93[0m
+[34m[INFO]: 2020/04/03 16:31:51 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行320s,nonce值:2068186828459586189,当前hash:2a6f3938c3e29af7726452cf8fb91bc5ecd0dd2dead6c1efee1add05b07f3ba6[0m
+[34m[INFO]: 2020/04/03 16:31:56 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行325s,nonce值:8890147261099615786,当前hash:bdef3f965872e204904d4d8a500fbc8152e631b70a99abc4d2db1749afa39aeb[0m
+[34m[INFO]: 2020/04/03 16:32:01 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行330s,nonce值:7537834168553242963,当前hash:399f1ae9b114592758efdd25d79d39bbd57020da9ba12e0d75a48b445c47c7b6[0m
+[34m[INFO]: 2020/04/03 16:32:06 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行335s,nonce值:1154849894252593495,当前hash:9da032ad936ece7611baaac2fdfa745cb1f2a313827c094c2da094e34d407132[0m
+[34m[INFO]: 2020/04/03 16:32:11 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行340s,nonce值:7678159704414676002,当前hash:fef69370ebb0422456a6bdb3f44ef8a93741af27ed6c454fd3fec4e28cad072e[0m
+[34m[INFO]: 2020/04/03 16:32:16 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行345s,nonce值:3893801345549049056,当前hash:b03406456362e09301938399143733647f5f83bc4865fd8eaab122284add3359[0m
+[34m[INFO]: 2020/04/03 16:32:21 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行350s,nonce值:2025921694491153432,当前hash:21d68bb81068bd17beb596c5e309855d87e265e915cd6147701c147e71da044c[0m
+[34m[INFO]: 2020/04/03 16:32:26 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行355s,nonce值:2141020708753135791,当前hash:ebcf9916871468cd8f7223bb97f9432856e30952cc892e4724e2ab9c3fe45ff0[0m
+[34m[INFO]: 2020/04/03 16:32:31 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行360s,nonce值:4336729023398829386,当前hash:9fb736bfd1f4b06a60064a8f069e1742fb0db0d994300410e09fa756b01a0c9a[0m
+[34m[INFO]: 2020/04/03 16:32:36 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行365s,nonce值:5195876398420342921,当前hash:19984b2a0956794ac8dd6bd6479bf216ac04a77f26b3a914dc20964edb7fa0f9[0m
+[34m[INFO]: 2020/04/03 16:32:41 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行370s,nonce值:8976519816053518100,当前hash:649cb97c322a9894011d30d237b36c11dac5f06fdc3b26e6bd2f9887b8982649[0m
+[34m[INFO]: 2020/04/03 16:32:46 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行375s,nonce值:590509651634076393,当前hash:e3da7615b53deb394f44b08d97c1b2287aff497a1d77cff7cf8c6216004a9527[0m
+[34m[INFO]: 2020/04/03 16:32:51 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行380s,nonce值:7235606181621855470,当前hash:19c0228a6bdc1f068bbfb18f24235ac17ec492272b52dd242f384684a3fddf13[0m
+[34m[INFO]: 2020/04/03 16:32:56 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行385s,nonce值:2707549066831563464,当前hash:460e39557bbab636b5e1cc2c3c8981232d9a0b901f3f8f9c06273442f200e641[0m
+[34m[INFO]: 2020/04/03 16:33:01 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行390s,nonce值:5875561136979063034,当前hash:a32df35256cac979bafe5e78ea73f2aceb7726c20d9bf303e92b0140a8969332[0m
+[34m[INFO]: 2020/04/03 16:33:06 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行395s,nonce值:9116220925817983385,当前hash:c6a93948c3f7b2195504f56be19789bceab9f0a99ce2406ce17b1f9b7c7ef79e[0m
+[34m[INFO]: 2020/04/03 16:33:11 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行400s,nonce值:6556447904435101576,当前hash:31c576161d32c694cb7171308b2b3f2d7a81f5e3fd8ca28d9b6531f85deaac48[0m
+[34m[INFO]: 2020/04/03 16:33:16 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行405s,nonce值:8834376846866837245,当前hash:cfc9151f525a6d7b2989ecab9f82ba1eaf6a919cd5a0739c281fc2df017517e6[0m
+[34m[INFO]: 2020/04/03 16:33:21 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行410s,nonce值:4282632983135570790,当前hash:024fa368ce174464fd510c4feb1e53d6d19ed8d16a7988acf39dbc97933d37c1[0m
+[34m[INFO]: 2020/04/03 16:33:26 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行415s,nonce值:8631069181076530299,当前hash:4a11758192ec653d0d867d9cb91a33dea5af7b9aab82d50d14619da4c67a7143[0m
+[34m[INFO]: 2020/04/03 16:33:31 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行420s,nonce值:7685404699617622881,当前hash:11a8ed5fa56d39c9b7f3e0268c79b344eb5c28cd9c6a9967267193f1619ebd13[0m
+[34m[INFO]: 2020/04/03 16:33:36 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行425s,nonce值:874636394154633825,当前hash:7be349a8a46cacaea7939cb5780d2aae214445137bbc2ae91a3093e3eadd0cc2[0m
+[34m[INFO]: 2020/04/03 16:33:41 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行430s,nonce值:6138507637520229628,当前hash:f967d3fffa142a387c7d6b9dbc0bba1d3f97a805db777aa470fc170f982ec535[0m
+[34m[INFO]: 2020/04/03 16:33:46 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行435s,nonce值:82299473399852594,当前hash:d6ad567332e5100f3c35b1adbb03c29ffe875bb3e4eb2233498c11ccedcff5e1[0m
+[34m[INFO]: 2020/04/03 16:33:51 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行440s,nonce值:150767696314135376,当前hash:8f604594a50ea3b4618ee6b409d4095971ebd7c482de08dc01de1cabd4fab4e3[0m
+[34m[INFO]: 2020/04/03 16:33:56 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行445s,nonce值:448967093626130491,当前hash:8c6fad312a435f6264b4700844b5d085a5b1087957a78dd0de7d79cf8f681c2f[0m
+[34m[INFO]: 2020/04/03 16:34:01 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行450s,nonce值:6962638123752371532,当前hash:bec4cb7a1f2a30227d7b4e6dc000e437b653b25d5dac6f2f7526aea9d0629ab9[0m
+[34m[INFO]: 2020/04/03 16:34:06 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行455s,nonce值:5761355105941564176,当前hash:135f175bdcaa78bfb89ef9ce11465d1670edb3a3c686f2c1c5888a01705783a5[0m
+[34m[INFO]: 2020/04/03 16:34:11 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行460s,nonce值:6571367146172848905,当前hash:2cf7d2acd35aed2a11aee73148d5b082608aec13323005677fb32e676ebe2f17[0m
+[34m[INFO]: 2020/04/03 16:34:16 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行465s,nonce值:1940642450438419924,当前hash:90cc5d1b45c8cf44ae5ba5b774673ea8f6e0ec9c1bc75dd83abf106ba4f69cb3[0m
+[34m[INFO]: 2020/04/03 16:34:21 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行470s,nonce值:6666445818018614667,当前hash:59c019265290de74cb992f237d05cff41f667b0b8a9192d6230433dcb120912a[0m
+[34m[INFO]: 2020/04/03 16:34:26 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行475s,nonce值:5892725504223668495,当前hash:eebd90084f50d10534fa987b8a1a554045ae44719a0e538f0211f34afc27938d[0m
+[34m[INFO]: 2020/04/03 16:34:31 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行480s,nonce值:3139342257385890583,当前hash:e976b1ac4985a17412adc0ad2d687ece9499fe59a63f6e62a04742496e0af865[0m
+[34m[INFO]: 2020/04/03 16:34:36 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行485s,nonce值:1025975152523279482,当前hash:6a9c98b239bd5ae4cd43316e04af08925ac5db1728e7e65cf081abc14bc8e83e[0m
+[34m[INFO]: 2020/04/03 16:34:41 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行490s,nonce值:9072584316652625756,当前hash:7e87c3ae839a5ef23a5be79865bd64f55bf05975b01918b6eda6098e37346425[0m
+[34m[INFO]: 2020/04/03 16:34:46 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行495s,nonce值:5845642742681498502,当前hash:269aa8ec573633253e8f70250d68045483880f9a8e2b2b52169d331344f8122f[0m
+[34m[INFO]: 2020/04/03 16:34:51 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行500s,nonce值:7807845328257131016,当前hash:1b140c3b83e69e23cca41f0a802763bc73dee5ae2c1aedab5e9041b0743b67cf[0m
+[34m[INFO]: 2020/04/03 16:34:56 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行505s,nonce值:7431176670971038397,当前hash:225490e7fb3e6d926318e7283107aa4eb01a2fdc85f8b58e79c855f14a937b9f[0m
+[34m[INFO]: 2020/04/03 16:35:01 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行510s,nonce值:7795807811497317517,当前hash:aeb94531ac4af075ac0ce32d261eefcc253a50812676c0b80123f6f03adc8e0f[0m
+[34m[INFO]: 2020/04/03 16:35:06 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行515s,nonce值:1099242598334483743,当前hash:197ca02e9e8c06ac54e17956ab60743cb2641bb542224eb66162b18b26e6b2ce[0m
+[34m[INFO]: 2020/04/03 16:35:11 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行520s,nonce值:927959511925109245,当前hash:00e79f914acbc6280bf6546b17749c08ba692327d3bf8bb197c0ac0599ab2e4d[0m
+[34m[INFO]: 2020/04/03 16:35:16 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行525s,nonce值:1172078594767891257,当前hash:ea83e5d7e1fc08be020d466f018cb51c790c4527a298d73d5e4157afe2b00f83[0m
+[34m[INFO]: 2020/04/03 16:35:21 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为21,已经运行530s,nonce值:1074586970696181661,当前hash:e3fc90ba70c0382698f4d4ca57f953726d7f2c0b398e20d61b73506dff32b9d9[0m
+[34m[INFO]: 2020/04/03 16:35:26 proof_of_work.go:237:AsyncMine: 本用户节点已成功挖到区块!!!,高度为:21,nonce值为:3684154333731608835,区块hash为: 000000b31e0df5761d8eafefcc518ef5e2e141b1c29da669b400614cde0963ce[0m
+[32m[TRACE]: 2020/04/03 16:35:26 send.go:31:SendVersionToPeers: version信息发送完毕...[0m
+[32m[TRACE]: 2020/04/03 16:35:27 mine.go:55:func1: 本节点已接收到命令：version[0m
+[36m[DEBUG]: 2020/04/03 16:35:27 mine.go:126:handleBlockVersion: 云节点发送过来的高度比我们的大,替换本节点的高度信息，停止挖矿%!(EXTRA network.version={0 21 /ip4/127.0.0.1/tcp/9003/p2p/QmaGb6UyJZyFkctN5QkqzxB7BEftmoNErV7PHrGz6ty3xm})[0m
+[34m[INFO]: 2020/04/03 22:12:22 server.go:34:StartNode: [*] 监听IP地址: 127.0.0.1 端口号: 8003[0m
+[34m[INFO]: 2020/04/03 22:12:22 mine.go:28:MonitorBlockHeader: connecting to %sws://144.34.183.16:9002/ws[0m
+[34m[INFO]: 2020/04/03 22:12:22 server.go:56:StartNode: [*] 你的P2P地址信息: /ip4/127.0.0.1/tcp/8003/p2p/QmQi8cinw6QHdEvD7dyc6FPv4Tcyb62vBut4wu4ZkQg5SH[0m
+[35m[FATAL]: 2020/04/03 22:12:22 mine.go:32:MonitorBlockHeader: dial:malformed HTTP response "\x13/multistream/1.0.0"[0m
+[34m[INFO]: 2020/04/03 22:14:20 server.go:34:StartNode: [*] 监听IP地址: 127.0.0.1 端口号: 8003[0m
+[34m[INFO]: 2020/04/03 22:14:20 mine.go:28:MonitorBlockHeader: connecting to %sws://144.34.183.16:7002/ws[0m
+[34m[INFO]: 2020/04/03 22:14:20 server.go:56:StartNode: [*] 你的P2P地址信息: /ip4/127.0.0.1/tcp/8003/p2p/QmTWccXg1hr46S3GMhtDx7KD1EwhiB352Q26EL4GE8YYPi[0m
+[32m[TRACE]: 2020/04/03 22:15:52 mine.go:51:func1: 本节点已接收到命令：blockHeader[0m
+[34m[INFO]: 2020/04/03 22:15:52 proof_of_work.go:174:AsyncMine: 准备挖矿...[0m
+[34m[INFO]: 2020/04/03 22:15:57 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行5s,nonce值:8690750944404909816,当前hash:d9e96bbd531ec2f8920068952fae915c7d4162348a12f8638284722077d2fab4[0m
+[34m[INFO]: 2020/04/03 22:16:02 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行10s,nonce值:571132346562825626,当前hash:8538c4ad14b4276d44a54b3cf7ded0759adfd43241b350fad2a179296dc9b7ef[0m
+[34m[INFO]: 2020/04/03 22:16:07 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行15s,nonce值:2568017218216032205,当前hash:ac4a614f3606bfd86f2509aa82c68118143938593faef03bcbac34b1253fe870[0m
+[34m[INFO]: 2020/04/03 22:16:12 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行20s,nonce值:1149828584478020990,当前hash:43d0c7f511fad54d5e3e42203f18307cd114cc3623886f9fda16b2e16dff5ddc[0m
+[34m[INFO]: 2020/04/03 22:16:17 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行25s,nonce值:5938976001892728043,当前hash:2a7b4b30c5c89bba0b9a413a979852818d7d48b05ecbf6b39d16f96d54864a04[0m
+[34m[INFO]: 2020/04/03 22:16:22 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行30s,nonce值:8013607169999421973,当前hash:5bec559cbfa5921ba87c2e79f7288c66dec0bc478ebce063f50a0317667d1389[0m
+[34m[INFO]: 2020/04/03 22:16:27 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行35s,nonce值:6257512924974701437,当前hash:0f9a7683402aed7fd522757c422b157fcc3003b99f42922e3952e662a0cd56a2[0m
+[34m[INFO]: 2020/04/03 22:16:32 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行40s,nonce值:8396637818650025106,当前hash:b3cdc317de6a0a51b5868f4ffff81be9887bf3fa856c38f8bfb94e4ddd634816[0m
+[34m[INFO]: 2020/04/03 22:16:37 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行45s,nonce值:7198623771153411414,当前hash:e8c568505cf754f539eaebc1daebe646d05373424c6e43be37bd4faf7706fcf0[0m
+[34m[INFO]: 2020/04/03 22:16:42 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行50s,nonce值:252273219391951084,当前hash:16edb684c9b5261af16b1f1cc5c5a01de538d594c055c71e53f177aebb34c982[0m
+[34m[INFO]: 2020/04/03 22:16:47 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行55s,nonce值:4762204427986035441,当前hash:42c6f4904808b7ab21f191f6b8782eb49a7efcbc8a04f66fd817457dd6b2e071[0m
+[34m[INFO]: 2020/04/03 22:16:52 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行60s,nonce值:7177871628367418308,当前hash:b1947685f87f07fc90fe35ff1ad2a852868f15621ddd99509e32480accad595b[0m
+[34m[INFO]: 2020/04/03 22:16:57 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行65s,nonce值:1008903656449766275,当前hash:57f96fdeace9c60c0dd8c41a7bfc92ef0c01dbda31c26066644a69284a7d2bc5[0m
+[34m[INFO]: 2020/04/03 22:17:02 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行70s,nonce值:3430709035916140395,当前hash:879d5bc779cb2cbc5746b9fd16366d62337bdfffa8c8c90d29453905b2827220[0m
+[34m[INFO]: 2020/04/03 22:17:07 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行75s,nonce值:5203401893536217797,当前hash:b2665b3127c5e1d494ceae932dd89db654ee03bbdab70320ba265c7cb5b1425e[0m
+[34m[INFO]: 2020/04/03 22:17:12 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行80s,nonce值:2935913434811799124,当前hash:0a3441c8cee23dc831692ac113cb0d06a331cb87fe57555e6365756910e3a59d[0m
+[34m[INFO]: 2020/04/03 22:17:17 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行85s,nonce值:8241242200393978022,当前hash:7cd02e8626f98aee3277bc75c6f4af0f53cc9d14eb7cb8833edbaf76254c2eff[0m
+[34m[INFO]: 2020/04/03 22:17:22 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行90s,nonce值:992786994952301548,当前hash:a32e6e4ba1a48fd4f87eb28a1d5c38530306cc272ba24a0fec4995102e60215f[0m
+[34m[INFO]: 2020/04/03 22:17:27 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行95s,nonce值:8865048635369754185,当前hash:b6366731f66de64a865c293f4e2d45b7c2a994cf0240d2160461e95aea52610b[0m
+[34m[INFO]: 2020/04/03 22:17:32 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行100s,nonce值:6336585467201113980,当前hash:550f5cc5f4e88acbdaac21648a50aec0531dbb3b353864864b5b25b48b17955a[0m
+[34m[INFO]: 2020/04/03 22:17:37 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行105s,nonce值:7148687791522885129,当前hash:935915c30edd23c6c95313956870132920f0871515f58f2cd451b665eba2cb3a[0m
+[34m[INFO]: 2020/04/03 22:17:42 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行110s,nonce值:3438849957088698408,当前hash:580e1e82a7ca2b5f97b3dc8bba9683da0ec7a46c98c33ba2c74e9dd63d176299[0m
+[34m[INFO]: 2020/04/03 22:17:47 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行115s,nonce值:7465215411754959055,当前hash:5130d8688edebc8b9373326345907b4fdf3105425b452a00d1f28ccb095d551e[0m
+[34m[INFO]: 2020/04/03 22:17:52 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行120s,nonce值:5779884745151106724,当前hash:50c32b3e1e9df8297f3d7259ded63d50f52234a0717a3088fa99563efd3f4144[0m
+[34m[INFO]: 2020/04/03 22:17:57 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行125s,nonce值:1309453732163892494,当前hash:6adddc97c6ade0ec25e621e67030ec13e758e4bd48bca55787824befc48efdab[0m
+[34m[INFO]: 2020/04/03 22:18:02 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行130s,nonce值:942658298692328591,当前hash:feeced7b1320252c583476a8a8d2da0c1d78358679e4d49a1e5416050e0d3eca[0m
+[34m[INFO]: 2020/04/03 22:18:07 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行135s,nonce值:6046496417802330934,当前hash:1f49dd2d24813da783905c29e78c83f12fd5f918c342342ec22790b0a030cdc4[0m
+[34m[INFO]: 2020/04/03 22:18:12 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行140s,nonce值:535123904260139175,当前hash:f458af7480d6a42f3380c3e4a3e42ccd97092bf4bed2dfae62f679bf5f59509a[0m
+[34m[INFO]: 2020/04/03 22:18:17 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行145s,nonce值:4173049222010138787,当前hash:7f51ce95a708a981c0b41cf462f8f41cf233dc217b834ba7dff0af89854ef7d0[0m
+[34m[INFO]: 2020/04/03 22:18:22 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行150s,nonce值:6529417070436423790,当前hash:32a3d64ce1a7922a5c369de99a9cc4ad85b8a40465772d59f2592601ccccf36c[0m
+[34m[INFO]: 2020/04/03 22:18:27 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行155s,nonce值:7179426749201672430,当前hash:76dda01786341ef69894cd9e03d68e43ee33df7c89df9c59d3f46486e485a51f[0m
+[34m[INFO]: 2020/04/03 22:18:32 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行160s,nonce值:122057838937931645,当前hash:f897190a67b308d0da58699da0f5cd4b37a68aa3f7a16f6611af5c5adb5b0002[0m
+[34m[INFO]: 2020/04/03 22:18:37 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行165s,nonce值:2285593591246389352,当前hash:ba7bbb1cf4986a95f0f026ea7c43005a022453df5b1e55ec3985ae7668fdd835[0m
+[34m[INFO]: 2020/04/03 22:18:42 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行170s,nonce值:775909462932016312,当前hash:69ab876c10da8fe1a0a29e5d90ba4b4f3a18aa3a989febae8ae55e502cae1331[0m
+[34m[INFO]: 2020/04/03 22:18:47 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行175s,nonce值:8241847948404553353,当前hash:76091416f722712c0456f953f9366a8431322171c7d944db45ed79204a1abe66[0m
+[34m[INFO]: 2020/04/03 22:18:52 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行180s,nonce值:505814558378899935,当前hash:15ad9539ba39cf1d0d9c5b07f9a805e5577e69cc5870ce9669c9b37fdc5b7fd9[0m
+[34m[INFO]: 2020/04/03 22:18:57 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行185s,nonce值:204127725463667136,当前hash:390d2ba0a6c99b297b4a37e3bad18aeb3069b0d5be937774a66004a56fc7b0c4[0m
+[34m[INFO]: 2020/04/03 22:19:02 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行190s,nonce值:3015230757271997185,当前hash:19bba56302c758d2be89550807fe1bd390634cf2ae0d55c3ab5edd3f8c5c222b[0m
+[34m[INFO]: 2020/04/03 22:19:07 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行195s,nonce值:3535776257558243423,当前hash:345c54dd48c97750d38f1a4b10a1060a64e37fb4012136b09a63e97402ddc7a5[0m
+[34m[INFO]: 2020/04/03 22:19:12 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行200s,nonce值:8462744428957984243,当前hash:8ae93388536d178e2518c7b130f9ab047ffc094480ab4e84886f578ff71c7b7a[0m
+[34m[INFO]: 2020/04/03 22:19:17 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行205s,nonce值:1099557927564321195,当前hash:43d88a6e22b32c3838636ff2ac7fc9347e119d8276aafaa1a6d1dc3967633cee[0m
+[34m[INFO]: 2020/04/03 22:19:22 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行210s,nonce值:2311853479492571745,当前hash:85c7b50f125e5f8c1786afe3565cb3ef66999a8c6b4c7e5d6b95b63272c2dec8[0m
+[34m[INFO]: 2020/04/03 22:19:27 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行215s,nonce值:3422271103372871155,当前hash:e2b17963b269932c6bce4ebbc944ce3596bd4ec129a8bd2c9068031d27f5e4c4[0m
+[34m[INFO]: 2020/04/03 22:19:32 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行220s,nonce值:3814902890741814197,当前hash:4b423ff670f877248691dc8ed5708698ebccb3e1984f65b85b5a2211e850c130[0m
+[34m[INFO]: 2020/04/03 22:19:37 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行225s,nonce值:7355075942831217184,当前hash:7dd3c7b70e2bbbfbd5418b32752d3e74f1f499300347d1d739e56e9856fa5010[0m
+[34m[INFO]: 2020/04/03 22:19:42 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行230s,nonce值:756505775426691787,当前hash:e0380c3aca658bf163ca77ed6c2293bd3a76743d7d3aad1d33cbec173d906d17[0m
+[34m[INFO]: 2020/04/03 22:19:47 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行235s,nonce值:8763996304343489147,当前hash:92588623286b6de265ea3aa43c4438aa85b9e788f3ded311bac02a8072d99a48[0m
+[34m[INFO]: 2020/04/03 22:19:52 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行240s,nonce值:1204899035314098141,当前hash:4e8769e4cb5f21477099ac18281a42ff83be99425afed215d2dc4e98b3c8bb13[0m
+[34m[INFO]: 2020/04/03 22:19:57 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行245s,nonce值:179297868202246480,当前hash:778a959342544cde417dd82e34325f61d4ae819a29f8599ba3583064a27cf9a4[0m
+[34m[INFO]: 2020/04/03 22:20:02 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行250s,nonce值:2072807922159387607,当前hash:77391b069487d6aa92028b1cccacffa2d9f7d073adb9abdd68e1a560775112bd[0m
+[34m[INFO]: 2020/04/03 22:20:07 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行255s,nonce值:5763932094221706501,当前hash:4bfdeda22babb970874320b02a2aafa49e15629fc3a205945ebfb018d6ac304f[0m
+[34m[INFO]: 2020/04/03 22:20:12 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行260s,nonce值:3285612940318535286,当前hash:f783e00b3e3e46854a9a65181407dea9cd8718f3105887018d1b8917a41a71f4[0m
+[34m[INFO]: 2020/04/03 22:20:17 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行265s,nonce值:4159556465915143991,当前hash:5c100cbf700fad1a2d591cc7b43ede8fe69ed6912fb69fc586605673bde06ee6[0m
+[34m[INFO]: 2020/04/03 22:20:22 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行270s,nonce值:336211934379639861,当前hash:4e90b04cb1879770e7d1694ca8fe8ecfdd0439e1777772fe81ea8ce6f9222203[0m
+[34m[INFO]: 2020/04/03 22:20:27 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行275s,nonce值:2842482028263701876,当前hash:09fd48c66c7f558c5fa591f180e87e81706dd0c5e3930f68c3629d31b674523c[0m
+[34m[INFO]: 2020/04/03 22:20:32 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行280s,nonce值:4389446191850249254,当前hash:65a9a92148ea2ea08085e315125d01ee583e7448f24c9c5bef3c265a416decae[0m
+[34m[INFO]: 2020/04/03 22:20:37 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行285s,nonce值:1715894303307817224,当前hash:b67338c665582691e39295781879e2387d257eba26d2fd6cc0761093d47f21b7[0m
+[34m[INFO]: 2020/04/03 22:20:42 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行290s,nonce值:44168094684384135,当前hash:755e7b934d11e58091b36726200d10f5c1a3e451dbb64d439ce0e4e41ca1f4d6[0m
+[34m[INFO]: 2020/04/03 22:20:47 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行295s,nonce值:2669614569024108217,当前hash:0ee7b9730645b6b8937d7183eff8f8838429a2803a782ce17a5be7a3181f56e4[0m
+[34m[INFO]: 2020/04/03 22:20:52 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行300s,nonce值:8274210053413395746,当前hash:d323c3b5dc88800b28d57efb0e7345685e5f763ba04304d504eb7e7d04bf15cc[0m
+[34m[INFO]: 2020/04/03 22:20:57 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行305s,nonce值:4061422749540048741,当前hash:2a2b97de5424d81d65337849e9d104e9ccb07599755fec731fcb213a43036cb2[0m
+[34m[INFO]: 2020/04/03 22:21:02 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行310s,nonce值:8980320671019463115,当前hash:efb8a16d1b9ac37df8d0de30713474fac98db1d1c4ce67a1074a646bc36a5210[0m
+[34m[INFO]: 2020/04/03 22:21:07 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行315s,nonce值:1381999047515336594,当前hash:8b2c5cadd70acedea35a620b83d0280968585d7b8aea13786db6b83f425c98ed[0m
+[34m[INFO]: 2020/04/03 22:21:12 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行320s,nonce值:1963860223208240295,当前hash:1a330fb112bddffd91bc4eb81473e8220422b61a2ba37f496a855783ce20837b[0m
+[34m[INFO]: 2020/04/03 22:21:17 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行325s,nonce值:4485248860269806271,当前hash:9e0a4c6d7f767454081fb45c03f8eef31a61168619e4dbafdb072115a40bb4b5[0m
+[34m[INFO]: 2020/04/03 22:21:22 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行330s,nonce值:162878785522780972,当前hash:43c642e61b304c480996541376b065fe75b6e665677eafd44e00289cb12f740d[0m
+[34m[INFO]: 2020/04/03 22:21:27 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行335s,nonce值:4304414200215652212,当前hash:fa0251a600aa089cc255a1e63aaa62da7f249032a958dde79eb99dcce2af0ee5[0m
+[34m[INFO]: 2020/04/03 22:21:32 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行340s,nonce值:4886119942317783647,当前hash:e2de372f4abe6be76c3141a3420318aa75157d79dd393c1da237e0b798d489d3[0m
+[34m[INFO]: 2020/04/03 22:21:37 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行345s,nonce值:5610266416074084228,当前hash:61ea0fa23e05b726701d2bec9ae8486c0bc603252a9495ca6fc05aea7bcbd2da[0m
+[34m[INFO]: 2020/04/03 22:21:42 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行350s,nonce值:6876305135761287204,当前hash:f42d1510ad3bb2b394468a22bfd0e81180d21bd312c6845e03452708dcbedcbd[0m
+[34m[INFO]: 2020/04/03 22:21:47 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行355s,nonce值:6170299809314297729,当前hash:8909038c30929b42630c8c3446f38fdec556530a1eec3902af9c0d27ad65e4b1[0m
+[34m[INFO]: 2020/04/03 22:21:52 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行360s,nonce值:6947399504446891271,当前hash:8cd570e16e4188e3e26f2c9400bc1243128f196da4564fb61986d0f488f3015f[0m
+[34m[INFO]: 2020/04/03 22:21:57 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行365s,nonce值:1184818683666793501,当前hash:45f167e3e3aa12cf3703ae3b8e6904f5240a05ee167cacff66f0424f39ec557c[0m
+[34m[INFO]: 2020/04/03 22:22:02 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行370s,nonce值:7855534367641535074,当前hash:7b6ac0e6695435bd1b795d6640a288bee993b60e1367d92a9f1c057d986cd0ba[0m
+[34m[INFO]: 2020/04/03 22:22:07 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行375s,nonce值:1533409077233634625,当前hash:1edc06ed46ad77024bb9811217500e1c52387ac4f738888a8a667e275e6c8e9d[0m
+[34m[INFO]: 2020/04/03 22:22:12 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行380s,nonce值:2300396518983754053,当前hash:f707a7ee167e3f1bbbc44e17c1e1ac812ddaa80390a9cc1cadae9fa40c4d102b[0m
+[34m[INFO]: 2020/04/03 22:22:17 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行385s,nonce值:3616704891532668070,当前hash:0e01b8aa1e44d2bd9d2ca94fd1c85400c23aec0f6eefbc2e6217cd68287c8123[0m
+[34m[INFO]: 2020/04/03 22:22:22 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行390s,nonce值:350839083275976106,当前hash:5391a0fbe94e8462d50e5548d70378cb4ddf1b3b2ec1138429ff6ae2ddcf8abc[0m
+[34m[INFO]: 2020/04/03 22:22:27 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行395s,nonce值:7791319312534889685,当前hash:6a294b21d6f733b2f893b6ac17e61f8775ba220fa4140ed16660777a1c2e37f3[0m
+[34m[INFO]: 2020/04/03 22:22:32 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行400s,nonce值:6524717843806337066,当前hash:6baadac3f9a3e5cacd559e00e58c197f2476d268aac8c43a30b3e29896a73471[0m
+[34m[INFO]: 2020/04/03 22:22:37 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行405s,nonce值:2697890170890691709,当前hash:709e6ff3028b4dc87ca92ff3b8385fbe153340026194c9c022788ab18f0eb2a0[0m
+[34m[INFO]: 2020/04/03 22:22:42 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行410s,nonce值:2656189298148552012,当前hash:23f1dae51be7dbd01bd3cdff2b8a0e0e0027d06370b6ad79034ff1fa24bd4f46[0m
+[34m[INFO]: 2020/04/03 22:22:47 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行415s,nonce值:456619174409285276,当前hash:66322f46b20771b50de80df210b948b4b23462883f3076f7296f6a9d375aeb13[0m
+[34m[INFO]: 2020/04/03 22:22:52 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行420s,nonce值:1883622312123092941,当前hash:b859c7e5b2faff9ca0a9f5366eff40571df849ba2b3f8e555a0c10382b5c267c[0m
+[34m[INFO]: 2020/04/03 22:22:57 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行425s,nonce值:5924349764769944098,当前hash:e14fb4c36d7fe26919983c0ec1d0105f2f3c2420dddbe065f0b99ccbb095acc9[0m
+[34m[INFO]: 2020/04/03 22:23:02 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行430s,nonce值:7440194126135796904,当前hash:67510f40464166b3cd6375d6570e93cf2bfaf7c58a054dbd3f00dbb8406be906[0m
+[34m[INFO]: 2020/04/03 22:23:07 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行435s,nonce值:6599639616080764947,当前hash:a8e7343ce609acc1df6cc7ce18c1e9a10e7d724b013cf4109f47facb18ec1473[0m
+[34m[INFO]: 2020/04/03 22:23:12 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行440s,nonce值:2769396156068532844,当前hash:702db878437bc87fd8cef13e426a008d9831fbb19b18f3d3f9c811323685b6e7[0m
+[34m[INFO]: 2020/04/03 22:23:17 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行445s,nonce值:4833098957770127879,当前hash:6ab23f44f06e1dd4e27e5259d6443a9d6fa50bca0063c30a031d5838a90309f9[0m
+[34m[INFO]: 2020/04/03 22:23:22 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行450s,nonce值:6095263653620237024,当前hash:21910bdd2bdb9e8673861b7606e053e2b4276bc379e71c5e4fc0d16fdfc82a00[0m
+[34m[INFO]: 2020/04/03 22:23:27 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行455s,nonce值:8789392918828556300,当前hash:c02c34f00ffedde285cbd4d4e69daec3e5d7d7fff660776866a38fe5487ada26[0m
+[34m[INFO]: 2020/04/03 22:23:32 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行460s,nonce值:6784049809296543103,当前hash:073977648cab5eaceee63cfcf7e3666c0de508260bc4ff0c1fed43caef606b05[0m
+[34m[INFO]: 2020/04/03 22:23:37 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行465s,nonce值:4588093803992101319,当前hash:0c2d4ee60f333d32f67686b23c3f7bc78c05636ad10434ce80dcbf7045202867[0m
+[34m[INFO]: 2020/04/03 22:23:42 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行470s,nonce值:4508713394249489195,当前hash:a606acd298308e5cba07ce51effaf257eb064aed7e482da28ad96820d4960082[0m
+[34m[INFO]: 2020/04/03 22:23:47 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为24,已经运行475s,nonce值:6584598058614818704,当前hash:0fd21468a8820648124d0bfba3cfceb52e3d5a008f37e56c2cc96c3d06d4b50b[0m
+[34m[INFO]: 2020/04/03 22:23:51 proof_of_work.go:237:AsyncMine: 本用户节点已成功挖到区块!!!,高度为:24,nonce值为:2956737522207061795,区块hash为: 0000008ce1609d3f51ad946237b48ed622b0611c78a28e86533d5a5729e7ca55[0m
+[32m[TRACE]: 2020/04/03 22:23:53 send.go:31:SendVersionToPeers: version信息发送完毕...[0m
+[32m[TRACE]: 2020/04/03 22:23:54 mine.go:55:func1: 本节点已接收到命令：version[0m
+[36m[DEBUG]: 2020/04/03 22:23:54 mine.go:126:handleBlockVersion: 云节点发送过来的高度比我们的大,替换本节点的高度信息，停止挖矿%!(EXTRA network.version={0 24 /ip4/0.0.0.0/tcp/9002/p2p/QmbAxDP7VQavPV5oopLQXmBbDtt3sXfkYtDqpkBq1YsuSD})[0m
+[32m[TRACE]: 2020/04/03 22:25:17 mine.go:51:func1: 本节点已接收到命令：blockHeader[0m
+[34m[INFO]: 2020/04/03 22:25:17 proof_of_work.go:174:AsyncMine: 准备挖矿...[0m
+[34m[INFO]: 2020/04/03 22:25:22 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行5s,nonce值:787665738830804755,当前hash:7d4de82431c023393f5fa01bf0af10b9ce8b261ab3f1688bfe8d9ce14e7afc41[0m
+[34m[INFO]: 2020/04/03 22:25:27 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行10s,nonce值:4137953550616029792,当前hash:94e2ad50b614bb259a446461765136a37c1f497d3f76227c214ca38403d94fa2[0m
+[34m[INFO]: 2020/04/03 22:25:32 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行15s,nonce值:5461675431641384512,当前hash:d692fe18d753c4c88f081e7fc1162c2f8e4a1e55bc4fc535e4e9d51f52250a7e[0m
+[34m[INFO]: 2020/04/03 22:25:37 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行20s,nonce值:2450041230753801251,当前hash:0cf4d4942cb80f4c4e3436346f715133895e15b5d1139c734584d6e175f0e6e5[0m
+[34m[INFO]: 2020/04/03 22:25:42 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行25s,nonce值:5817169299904317389,当前hash:4ca1b4bb3b20813d213dcae942e5cf29773e95d7fe2ea940e2bd12d6d98e0b76[0m
+[34m[INFO]: 2020/04/03 22:25:47 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行30s,nonce值:3270829490390406038,当前hash:29efb555fe693eabc918e056034606a88766c0509e41ca3c65eee1752d41ce3d[0m
+[34m[INFO]: 2020/04/03 22:25:52 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行35s,nonce值:3353421068903894905,当前hash:df7054cdbbc35ec126765ea84b3e960b2ffe26f8e2d8e242ff0eef5c9b77325b[0m
+[34m[INFO]: 2020/04/03 22:25:57 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行40s,nonce值:3176033659200582981,当前hash:4bf3334c97e92caebd22934c2bad0cf0997b64e63229b06759b8a3a19060ae84[0m
+[34m[INFO]: 2020/04/03 22:26:02 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行45s,nonce值:5493516549311821337,当前hash:2fe78462fbdf7f700a3ac69b67db0b289d0b0dcfc97c85964366e0dfb79776e3[0m
+[34m[INFO]: 2020/04/03 22:26:07 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行50s,nonce值:5776230046496519119,当前hash:a7c1e1a6bb2315261edcfc60c8e4771612c4128b2d8b66d763e9030033726ddc[0m
+[34m[INFO]: 2020/04/03 22:26:12 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行55s,nonce值:6580302002031569198,当前hash:94dc4fb29c3aef0147855ebdac3ee402578d56cc6e09cc240cd150fc7f2d7a88[0m
+[34m[INFO]: 2020/04/03 22:26:17 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行60s,nonce值:958730002073491386,当前hash:68272709c84305263efbdee7e750081e21ad9067414711e43c4cdb3577d245e1[0m
+[34m[INFO]: 2020/04/03 22:26:22 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行65s,nonce值:3438902471840379300,当前hash:845ce735d6a45b83daaa028728514c2477c640cbc2f1ebe94a7cb4215bf6bfe0[0m
+[34m[INFO]: 2020/04/03 22:26:27 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行70s,nonce值:3691826941828971809,当前hash:bac695f0e060a0c38a9be25217f2b6ef9f1b70e8595158d44e3872463e708234[0m
+[34m[INFO]: 2020/04/03 22:26:32 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行75s,nonce值:7002672194022038849,当前hash:78969a710f6534fe87a55237054889712a282132b6eda955a0ba3268bb95d59a[0m
+[34m[INFO]: 2020/04/03 22:26:37 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行80s,nonce值:6217273844541723711,当前hash:1a8517405806f40caa6e0b2c7d41f6253bdeafc3061e362f26066332d67c375a[0m
+[34m[INFO]: 2020/04/03 22:26:42 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行85s,nonce值:2319992958016870920,当前hash:d6497ddfd1863b019e7be334f2240a114a26ca0a80ac0add75af2283277a0d16[0m
+[34m[INFO]: 2020/04/03 22:26:47 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行90s,nonce值:6325629298096818950,当前hash:025ffabc7cc995f7f16ddb6e53f6e6f3e7ad8f3166a390b5d2a010e6dd668ab9[0m
+[34m[INFO]: 2020/04/03 22:26:52 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行95s,nonce值:7847319985570438201,当前hash:29946e52340714f5a425c65e50e13d423f4828a38ed732aced23750d6ca0223f[0m
+[34m[INFO]: 2020/04/03 22:26:57 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行100s,nonce值:2116146567548109709,当前hash:873460932e820bd6be6b250ccba676cbff69cd11e1a4f275cab93fe06e18d3a4[0m
+[34m[INFO]: 2020/04/03 22:27:02 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行105s,nonce值:5663598824875186583,当前hash:c3a5ed44511942a5dbef1ee9f9be89d8d65454576ac49c0600b600feaf461413[0m
+[34m[INFO]: 2020/04/03 22:27:07 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行110s,nonce值:126777689198910340,当前hash:72110125c95ed93640558344c3c09629a9605c465d34f074adef6b4808961a2d[0m
+[34m[INFO]: 2020/04/03 22:27:12 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行115s,nonce值:3054307121613265847,当前hash:f090615d2957122473f9deaea1bdb536c1e3c2c832411eda43242e49e5d45121[0m
+[34m[INFO]: 2020/04/03 22:27:17 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行120s,nonce值:3864905791902100044,当前hash:7f42443046c39baea3ca2051ed7899323f434b007a4758099a6b70017239f241[0m
+[34m[INFO]: 2020/04/03 22:27:22 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行125s,nonce值:8590672287103642599,当前hash:6e7d9225953ccd6baa8722909d42cece3a46d73ac13fdcb3f354e9959fe67f6f[0m
+[34m[INFO]: 2020/04/03 22:27:27 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行130s,nonce值:2644784375820689797,当前hash:422592e946c474ac8164cf420a2ebea2837d412a754ffa13a3f1cb2b21ee6579[0m
+[34m[INFO]: 2020/04/03 22:27:32 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行135s,nonce值:2048751248015374514,当前hash:ab15c1c5f7374bd547f615f32b2297f7802dce228c478e4edb696d91893911b8[0m
+[34m[INFO]: 2020/04/03 22:27:37 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行140s,nonce值:9155472270555219408,当前hash:a928bc6360685b5913cebc9f30ee706480a9a590241c1870276086a7d9a4db57[0m
+[34m[INFO]: 2020/04/03 22:27:42 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行145s,nonce值:1845572504159229811,当前hash:56daa4f3042c16889b4ff986bc48bafa17ec78069b89335322f24ecf19b6ae14[0m
+[34m[INFO]: 2020/04/03 22:27:47 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行150s,nonce值:8530412494422357042,当前hash:1247f553dd8a16ddc330f39f3280dd9a2ff77e78d005772fdab0bd3f88cc2438[0m
+[34m[INFO]: 2020/04/03 22:27:52 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行155s,nonce值:5915920621977776918,当前hash:c8b72f20eab525982821bafb7a9339d42429c7f3b53cd7c6e315720b8dd3da66[0m
+[34m[INFO]: 2020/04/03 22:27:57 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行160s,nonce值:6086104273444594110,当前hash:310f08432b179c15681533dd054dfea3ff6893b35cb7a66d853e5bda30794782[0m
+[34m[INFO]: 2020/04/03 22:28:02 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行165s,nonce值:9132392813817025529,当前hash:658ba15d8ded3e620e2f09e251016d229b5ccdd1071f2f73ad6629184bce2c60[0m
+[34m[INFO]: 2020/04/03 22:28:07 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行170s,nonce值:6070161831520269434,当前hash:a443e1a4253c40b6ebadc15e843ded81dc4b9be79260b304ac47641fff03dca5[0m
+[34m[INFO]: 2020/04/03 22:28:12 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行175s,nonce值:7385755907724790049,当前hash:fda0964e31ccc2a969fb9fe3f753f878f68f34fac825553cbd2758d92aedb29a[0m
+[34m[INFO]: 2020/04/03 22:28:17 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行180s,nonce值:7736927408875680689,当前hash:b3111019b17bfaba72990670e6d1969a9cf82737fc3fecf5cfd26f347b5c3b7a[0m
+[34m[INFO]: 2020/04/03 22:28:22 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行185s,nonce值:6817154812812661745,当前hash:24add8c4fe3eea5529644412a0deae9b8b78a5915a0b3ba020a522bf8cb965ce[0m
+[34m[INFO]: 2020/04/03 22:28:27 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行190s,nonce值:3944530890396344628,当前hash:fa50901afbccd93c7d9d33aecdbef85d8ef1ced9a6af7a74cee0c069a0430774[0m
+[34m[INFO]: 2020/04/03 22:28:32 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行195s,nonce值:5910592718738336213,当前hash:a4a91a904d81258d6c0bfa12e14d3c19c5dee8f7b8085ca6e9e37d4f65da51ea[0m
+[34m[INFO]: 2020/04/03 22:28:37 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行200s,nonce值:517865612521640151,当前hash:437b3c630050d8db2feb425528256c56707d4d6c64f2cf9fd7085ade8d233386[0m
+[34m[INFO]: 2020/04/03 22:28:42 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行205s,nonce值:8359247476923079890,当前hash:9b22be2dffa271e51d29c7b600a04984327c735ea70841d1cb64e9231b59a18e[0m
+[34m[INFO]: 2020/04/03 22:28:47 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行210s,nonce值:1700050382588194937,当前hash:fd911ef6ae731df31078265411f7049227d91ffac157ea3f205f7fa01a199687[0m
+[34m[INFO]: 2020/04/03 22:28:52 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行215s,nonce值:5444926753279787727,当前hash:366addcc55b94118cc77b21ac2df7942a58b2cc35909c43ade73abd798863a85[0m
+[34m[INFO]: 2020/04/03 22:28:57 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行220s,nonce值:1335309216886168977,当前hash:0b1bd61740df51b78cacb59ee5519bd1574caacd3bde4445a3554de54a6eabce[0m
+[34m[INFO]: 2020/04/03 22:29:02 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行225s,nonce值:8888628565476735613,当前hash:ddd0a0cd6ab76c26b27352e00853a2825c59e106b71a671ebaf0d49381e4f5e3[0m
+[34m[INFO]: 2020/04/03 22:29:07 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行230s,nonce值:3594969119556400387,当前hash:0b5e101bbccbfe6de9dcc05f4dfdf62d3cafac84de7ddeae5faf0053b8e2e55b[0m
+[34m[INFO]: 2020/04/03 22:29:12 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行235s,nonce值:8045225519804301401,当前hash:4a4d75540d999b9fe8f6a1064a0633f08af6752b45b4fa9d22d119c093f716a6[0m
+[34m[INFO]: 2020/04/03 22:29:17 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行240s,nonce值:560018740759666980,当前hash:70a256aa988a9bff44e2e7a0d6aae5c68f2dedd81a5746ccdf099afda0a433f4[0m
+[34m[INFO]: 2020/04/03 22:29:22 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行245s,nonce值:4590989807801432605,当前hash:6f55ae60caa95fe2c14f0ad3de003aacdfda8d45c32192537f3b4dc94fb727f7[0m
+[34m[INFO]: 2020/04/03 22:29:27 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行250s,nonce值:5999020548875567803,当前hash:27cb5ccd5bb21e5249e2174a21be7556b7b88e722e274c87d98aee95a61da259[0m
+[34m[INFO]: 2020/04/03 22:29:32 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行255s,nonce值:3863206318510313586,当前hash:8caec633b28d5c50007bcb0da1e6e48979262e0a9301ecbb0dbc08fd54d73588[0m
+[34m[INFO]: 2020/04/03 22:29:37 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行260s,nonce值:6715178382260863283,当前hash:7a4ba8a880f542934bb0cbc092f4567715a94f0c44da196f55d0a97a54fc093f[0m
+[34m[INFO]: 2020/04/03 22:29:42 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行265s,nonce值:8923407928126363956,当前hash:c993c95b5973ca33dfdecfff31d08eaacc0051b9af839aaf529091e8d9d8e39b[0m
+[34m[INFO]: 2020/04/03 22:29:47 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行270s,nonce值:1847556997047958667,当前hash:b8b20fcf816a005037d155a98479a4bbee7d7aec9416d7e54f162ee9110a92d4[0m
+[34m[INFO]: 2020/04/03 22:29:52 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行275s,nonce值:2722230737520176555,当前hash:a4453a95672004abb58b5857d1d0e4e6b55557b5e821cb5584c510247cc4c787[0m
+[34m[INFO]: 2020/04/03 22:29:57 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行280s,nonce值:688733343942222647,当前hash:d9151eee5e2b2ae99717b057e8e22645301b2c1e1c251f3db0ce3f975beb463c[0m
+[34m[INFO]: 2020/04/03 22:30:02 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行285s,nonce值:2188404535792203090,当前hash:3cddcc1b9de24b9b3dcbbc6b45b90e8251f441240d66e2ba768a1afc9d7e6082[0m
+[34m[INFO]: 2020/04/03 22:30:07 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行290s,nonce值:7273287056511481558,当前hash:10c31888eb1951d5b9899cca1ec22e61da764be10b0dee85accd86f59f8515bc[0m
+[34m[INFO]: 2020/04/03 22:30:12 proof_of_work.go:183:func1: 正在挖矿,挖矿区块高度为25,已经运行295s,nonce值:5334990383496379604,当前hash:94ae90df95749ce4c45c163f01344d7981ac0bd69d047f5fb65a8763af7323e1[0m
+[34m[INFO]: 2020/04/03 22:30:16 proof_of_work.go:237:AsyncMine: 本用户节点已成功挖到区块!!!,高度为:25,nonce值为:7825465959541605574,区块hash为: 00000030bfcb246f750e259e7043d861312d91dbe51c8163d991b68985aa3a9b[0m
+[32m[TRACE]: 2020/04/03 22:30:17 send.go:31:SendVersionToPeers: version信息发送完毕...[0m
+[34m[INFO]: 2020/04/04 11:28:58 server.go:49:StartNode: [*] 监听IP地址: 127.0.0.1 端口号: 8003[0m
+[34m[INFO]: 2020/04/04 11:28:58 mine.go:27:MonitorBlockHeader: connecting to %sws://127.0.0.1:7003/ws[0m
+[34m[INFO]: 2020/04/04 11:28:58 server.go:105:StartNode: [*] 你的P2P地址信息: /ip4/127.0.0.1/tcp/8003/p2p/QmVzBfoaDHaqGDZuGguQ1LT2XZfNkDdLQRG9XSQ8oFksJ4[0m
+[32m[TRACE]: 2020/04/04 11:29:10 mine.go:50:func1: 本节点已接收到websocket推送命令：blockHeader[0m
+[32m[TRACE]: 2020/04/04 11:29:10 handle.go:31:pubsubHandler: 本节点已接收到命令：aBlockHeader[0m
+[32m[TRACE]: 2020/04/04 11:29:10 handle.go:31:pubsubHandler: 本节点已接收到命令：aBlockHeader[0m
+[34m[INFO]: 2020/04/04 11:29:10 proof_of_work.go:181:AsyncMine: 准备挖矿...[0m
+[34m[INFO]: 2020/04/04 11:29:15 proof_of_work.go:190:func1: 正在挖矿,挖矿区块高度为28,已经运行5s,nonce值:3911608476950288187,当前hash:6877cca4b0b9ec8db7f392a2aa218a49345f2017abb41be7d758a8dd4f370394[0m
+[34m[INFO]: 2020/04/04 11:29:20 proof_of_work.go:190:func1: 正在挖矿,挖矿区块高度为28,已经运行10s,nonce值:2015443403100348389,当前hash:02fddc94ad40f12914a11b8316da26d0ddb4203319433ceedb4ab3880d5fbbee[0m
+[34m[INFO]: 2020/04/04 11:29:25 proof_of_work.go:190:func1: 正在挖矿,挖矿区块高度为28,已经运行15s,nonce值:5274836080783146833,当前hash:c1056609befb20ed7944eea02156321ae33c19c49ff5cad5f5c9cab28e8286f6[0m
+[34m[INFO]: 2020/04/04 11:29:30 proof_of_work.go:190:func1: 正在挖矿,挖矿区块高度为28,已经运行20s,nonce值:6402431279790762648,当前hash:0f374748312a7b34146eddef77a8cf64b11f4e4b130eac1dc2041ece219629a8[0m
+[34m[INFO]: 2020/04/04 11:29:35 proof_of_work.go:190:func1: 正在挖矿,挖矿区块高度为28,已经运行25s,nonce值:4718295911201566677,当前hash:dc1c60511a1ce0b0319d158f0a1104bdec633eaf397635088b627e1e2f137541[0m
+[34m[INFO]: 2020/04/04 11:29:40 proof_of_work.go:190:func1: 正在挖矿,挖矿区块高度为28,已经运行30s,nonce值:4256115512469930029,当前hash:5164af15398b67dfd7dd3fbeca4fe1e7d63a671299bd0f7e312bef8e04a18264[0m
+[34m[INFO]: 2020/04/04 11:29:45 proof_of_work.go:190:func1: 正在挖矿,挖矿区块高度为28,已经运行35s,nonce值:2253626224344461172,当前hash:9581fda56bf683eeed8ec6db0a373595af61ae2e31e56096445346c290201c38[0m
+[32m[TRACE]: 2020/04/04 11:29:46 mine.go:54:func1: 本节点已接收到websocket推送命令：version[0m
+[32m[TRACE]: 2020/04/04 11:29:46 handle.go:31:pubsubHandler: 本节点已接收到命令：version[0m
+[36m[DEBUG]: 2020/04/04 11:29:46 handle.go:308:handleVersion: 云节点发送过来的高度比我们的大,替换本节点的高度信息，停止挖矿%!(EXTRA network.version={0 28 /ip4/0.0.0.0/tcp/9003/p2p/QmT2Vgtr1GjB81MXj2MrTFh8Za8bK3r3xmnDnP9PJKzcLv})[0m
+[32m[TRACE]: 2020/04/04 11:29:46 handle.go:31:pubsubHandler: 本节点已接收到命令：version[0m
+[34m[INFO]: 2020/04/04 11:29:46 proof_of_work.go:203:AsyncMine: 检测到当前节点已接收到最新区块，所以终止此块的挖矿操作[0m
+[36m[DEBUG]: 2020/04/04 11:29:46 handle.go:311:handleVersion: 云节点发送过来的高度信息与当前一致，停止当前挖矿[0m
+[32m[TRACE]: 2020/04/04 11:31:36 mine.go:50:func1: 本节点已接收到websocket推送命令：blockHeader[0m
+[32m[TRACE]: 2020/04/04 11:31:36 handle.go:31:pubsubHandler: 本节点已接收到命令：aBlockHeader[0m
+[34m[INFO]: 2020/04/04 11:31:36 proof_of_work.go:181:AsyncMine: 准备挖矿...[0m
+[32m[TRACE]: 2020/04/04 11:31:36 handle.go:31:pubsubHandler: 本节点已接收到命令：aBlockHeader[0m
+[34m[INFO]: 2020/04/04 11:31:41 proof_of_work.go:190:func1: 正在挖矿,挖矿区块高度为29,已经运行5s,nonce值:5945601092828737145,当前hash:99a0b09e8bf93d3957a4549b5a28e43ab2357661da2567c34c53aad567534b0b[0m
+[34m[INFO]: 2020/04/04 11:31:46 proof_of_work.go:190:func1: 正在挖矿,挖矿区块高度为29,已经运行10s,nonce值:8325997663143370467,当前hash:def9d77d8e62bb756684a7907b36fa26f1a1677d58864c7837e5d0c28acafb11[0m
+[34m[INFO]: 2020/04/04 11:31:51 proof_of_work.go:190:func1: 正在挖矿,挖矿区块高度为29,已经运行15s,nonce值:1553224469675384924,当前hash:452b8c4daebfdbb29b7f3c483498df49c2edff7956eae0cadeeafa0e12a166ed[0m
+[34m[INFO]: 2020/04/04 11:31:56 proof_of_work.go:190:func1: 正在挖矿,挖矿区块高度为29,已经运行20s,nonce值:6875231727923138465,当前hash:e5222802c03de8c89ad80e296e10b58011cb61b3b760f7000734be99e94fae51[0m
+[34m[INFO]: 2020/04/04 11:32:01 proof_of_work.go:190:func1: 正在挖矿,挖矿区块高度为29,已经运行25s,nonce值:5755478632238286358,当前hash:8b1f1bcd052ef11a8738e7a4d2098e528db99696634691462ed610ca2759133a[0m
+[34m[INFO]: 2020/04/04 11:32:06 proof_of_work.go:190:func1: 正在挖矿,挖矿区块高度为29,已经运行30s,nonce值:6294998435059450175,当前hash:099bf1ee4e9c3daa456a7ebb1bffcd7bc0a4d956f8c3570f32b926bde71730a3[0m
+[34m[INFO]: 2020/04/04 11:32:11 proof_of_work.go:190:func1: 正在挖矿,挖矿区块高度为29,已经运行35s,nonce值:8126199519794216014,当前hash:99a6f6d5295959b6908d9d19a852690235f95c57485832ce363b0dfe939a3fb3[0m
+[34m[INFO]: 2020/04/04 11:32:16 proof_of_work.go:190:func1: 正在挖矿,挖矿区块高度为29,已经运行40s,nonce值:1707793305796154238,当前hash:7a04c77469a037d98db8e18591bac236d61ba8111d18d34d14ecc413f7b93519[0m
+[34m[INFO]: 2020/04/04 11:32:21 proof_of_work.go:190:func1: 正在挖矿,挖矿区块高度为29,已经运行45s,nonce值:3407484441146748185,当前hash:342332a926138f2974f927117eb2525ec58e15f9fd19f6fff216d161ef2cf5be[0m
+[34m[INFO]: 2020/04/04 11:32:26 proof_of_work.go:190:func1: 正在挖矿,挖矿区块高度为29,已经运行50s,nonce值:8073597377760535240,当前hash:68eeda9b5d273e3ac306d88c93c11993f524cd492db421257724e0a618d55261[0m
+[34m[INFO]: 2020/04/04 11:32:31 proof_of_work.go:190:func1: 正在挖矿,挖矿区块高度为29,已经运行55s,nonce值:1059223708969012973,当前hash:d98a4ec3563df75a54bbc7820816e2c3b398dfbd1993530ed3200b4db6d6aafd[0m
+[34m[INFO]: 2020/04/04 11:32:36 proof_of_work.go:245:AsyncMine: 本用户节点已成功挖到区块!!!,高度为:29,nonce值为:3050724491643764595,区块hash为: 00000054dd9bd1ff34f3c6cfd9a392cc628a25ae0211b9aebd5bf4a9396250d6[0m
+[32m[TRACE]: 2020/04/04 11:32:36 send.go:27:SendVersionToPeers: version信息发送完毕...[0m
+[32m[TRACE]: 2020/04/04 11:32:36 handle.go:31:pubsubHandler: 本节点已接收到命令：version[0m
+[36m[DEBUG]: 2020/04/04 11:32:36 handle.go:308:handleVersion: 云节点发送过来的高度比我们的大,替换本节点的高度信息，停止挖矿%!(EXTRA network.version={0 29 /ip4/127.0.0.1/tcp/8003/p2p/QmVzBfoaDHaqGDZuGguQ1LT2XZfNkDdLQRG9XSQ8oFksJ4})[0m
+[32m[TRACE]: 2020/04/04 11:32:36 mine.go:54:func1: 本节点已接收到websocket推送命令：version[0m
+[32m[TRACE]: 2020/04/04 11:32:36 handle.go:31:pubsubHandler: 本节点已接收到命令：version[0m
+[36m[DEBUG]: 2020/04/04 11:32:36 handle.go:311:handleVersion: 云节点发送过来的高度信息与当前一致，停止当前挖矿[0m
+[32m[TRACE]: 2020/04/04 11:32:36 handle.go:31:pubsubHandler: 本节点已接收到命令：version[0m
+[36m[DEBUG]: 2020/04/04 11:32:36 handle.go:311:handleVersion: 云节点发送过来的高度信息与当前一致，停止当前挖矿[0m
+[32m[TRACE]: 2020/04/04 11:33:28 handle.go:31:pubsubHandler: 本节点已接收到命令：myError[0m
+[33m[WARN]: 2020/04/04 11:33:28 handle.go:119:handleMyError: 节点:/ip4/127.0.0.1/tcp/8003/p2p/QmVzBfoaDHaqGDZuGguQ1LT2XZfNkDdLQRG9XSQ8oFksJ4已退出网络[0m

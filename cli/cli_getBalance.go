@@ -2,11 +2,10 @@ package cli
 
 import (
 	"fmt"
-	block "github.com/corgi-kx/blockchain_golang/blc"
+	"github.com/corgi-kx/blockchain_golang/network"
 )
 
 func (cli *Cli) getBalance(address string) {
-	bc := block.NewBlockchain()
-	balance := bc.GetBalance(address)
-	fmt.Printf("地址:%s的余额为：%d\n", address, balance)
+	balance := network.GetBalance(address)
+	fmt.Printf("地址:%s的余额为：%s\n", address, balance)
 }

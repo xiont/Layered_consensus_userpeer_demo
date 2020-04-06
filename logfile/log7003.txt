@@ -1,0 +1,12 @@
+[34m[INFO]: 2020/03/24 10:17:48 server.go:35:StartNode: [*] 监听IP地址: 127.0.0.1 端口号: 7003[0m
+[34m[INFO]: 2020/03/24 10:17:48 server.go:57:StartNode: [*] 你的P2P地址信息: /ip4/127.0.0.1/tcp/7003/p2p/QmYtUZjfbTSsWpyHKaLhixeaenC4GoyZuhTmyyEAKg3b8E[0m
+[34m[INFO]: 2020/03/24 10:17:49 server.go:88:monitorP2PNodes: ----------------------检测到网络中P2P节点变动,当前节点池存在的节点------------------[0m
+[34m[INFO]: 2020/03/24 10:17:49 server.go:90:monitorP2PNodes: |   {QmRP5ib3wYXMVoHsw3uFjFS7TKb2ecYo2pKRx5gAYyhA5G: [/ip4/127.0.0.1/tcp/7002]}   |[0m
+[34m[INFO]: 2020/03/24 10:17:49 server.go:92:monitorP2PNodes: ----------------------------------------------------------------------------------[0m
+[36m[DEBUG]: 2020/03/24 10:18:12 send.go:84:SendMessage: send cmd:myError to peer:{QmRP5ib3wYXMVoHsw3uFjFS7TKb2ecYo2pKRx5gAYyhA5G: [/ip4/127.0.0.1/tcp/7002]}[0m
+[34m[INFO]: 2020/03/24 10:28:41 server.go:35:StartNode: [*] 监听IP地址: 127.0.0.1 端口号: 7003[0m
+[34m[INFO]: 2020/03/24 10:28:41 server.go:57:StartNode: [*] 你的P2P地址信息: /ip4/127.0.0.1/tcp/7003/p2p/Qmf28zuKV3zx7N16RJ8F3gTd17WxHHieKgSTkAkx6eoswN[0m
+[34m[INFO]: 2020/03/24 10:30:48 server.go:34:StartNode: [*] 监听IP地址: 127.0.0.1 端口号: 7003[0m
+[34m[INFO]: 2020/03/24 10:30:48 server.go:56:StartNode: [*] 你的P2P地址信息: /ip4/127.0.0.1/tcp/7003/p2p/QmNwMxewc5KjawRYdy9k8oqdbGwCCf5azEZ75KzmCMhCiH[0m
+[34m[INFO]: 2020/03/25 11:16:32 server.go:34:StartNode: [*] 监听IP地址: 127.0.0.1 端口号: 7003[0m
+[34m[INFO]: 2020/03/25 11:16:32 server.go:56:StartNode: [*] 你的P2P地址信息: /ip4/127.0.0.1/tcp/7003/p2p/QmTkpZtMQPWnxr2AauesbybftD4owHQfLmTCJRgFm1DmnG[0m

@@ -9,19 +9,29 @@ blockchain:
   log_path: "./logfile/"
   #中文助记词种子路径
   chinese_mnemonic_path: "./chinese_mnemonic_world.txt"
+  # W 重HASH次数
+  w_num: 100
 network:
   #本地监听IP
   listen_host: "127.0.0.1"
   #本地监听端口
-  listen_port: "9004"
+  listen_port: "8004"
   #节点组唯一标识名称(如果节点间名称不同会找不到网络)
-  rendezvous_string: "meetme"
+  rendezvous_string: "user_net"
   #网络传输流的协议id(如果节点间id不同发送不了数据)
   protocol_id: "/chain/1.1.0"
 
+  #云计算节点地址
+  remote_host: "127.0.0.1"
+  remote_port: "7003"
+#  remote_host: "144.34.183.16"
+#  remote_port: "7003"
+
 user:
   #给予挖矿用户的奖励地址9003
-  #this_node_addr: "1GDvG72EbXBdb1bXEDhVExvmdd9XGP23op"
+  #this_node_addr: "1Bu3NhMG1YPDmTjxjFtuVkJ51DcURMqAFj"
   #9002
+  #this_node_addr: "1EqGpmvreF6Vznfztn4vCg7xMRvChLFthD"
+  #9004
   this_node_addr: "1EqGpmvreF6Vznfztn4vCg7xMRvChLFthD"
 

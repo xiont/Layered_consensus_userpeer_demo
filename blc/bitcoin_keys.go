@@ -7,6 +7,7 @@ import (
 	"crypto/rand"
 	"crypto/sha256"
 	"encoding/gob"
+	"errors"
 	"github.com/corgi-kx/blockchain_golang/util"
 	log "github.com/corgi-kx/logcustom"
 	"math/big"
@@ -159,7 +160,7 @@ func generatePublicKeyHash(publicKey []byte) []byte {
 	return nil
 }
 
-func getPublicKeyHashFromAddress(address string) []byte {
+func GetPublicKeyHashFromAddress(address string) []byte {
 	addressBytes := []byte(address)
 	fullHash := util.Base58Decode(addressBytes)
 	publicKeyHash := fullHash[1 : len(fullHash)-checkSum]
@@ -243,4 +244,15 @@ func ellipticCurveVerify(pubKey []byte, signature []byte, hash []byte) bool {
 		return false
 	}
 	return true
+}
+
+//获取用户节点奖励地址的 私钥，如果没有导入钱包则返回错误
+func getThisAddrPrivKey()(*ecdsa.PrivateKey,error){
+	bc := NewBlockchain()
+	wallets := NewWallets(bc.BD)
+	if wallets.Wallets[ThisNodeAddr] == nil{
+		return nil,errors.New("用户奖励地址的钱包未导入,MerkelRootWHash不会被签名")
+	}else {
+		return wallets.Wallets[ThisNodeAddr].PrivateKey,nil
+	}
 }

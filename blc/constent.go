@@ -35,9 +35,18 @@ const version = byte(0x00)
 const checkSum = 4
 
 //随机数不能超过的最大值
-const maxInt = math.MaxInt64
+const MaxInt = math.MaxInt64
 
 // TODO 该节点的挖矿收款地址
 var ThisNodeAddr string
+// TODO 验证次数 W
+var WNum int
+
+var RemoteHost string
+var RemotePort string
+
+//网络通讯互相发送的命令
+
+var CUTXOs = "find_utxo_from_address"
 
 //const cACeritificate1 = CACertificate{"00000"}

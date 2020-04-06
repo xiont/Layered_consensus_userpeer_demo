@@ -64,7 +64,7 @@ type Block struct {
 //blockheader 中preHash 已知 merkelTreeRoot 已知 preRandomMatrix
 //CA 已知 Height 已知
 //未知：MerkelRootWHash MerkelRootWSignature TransactionToUser TimeStamp RandomMatrix Hash
-func mineBlock(transactions []Transaction, preHash []byte, height int, preRandomMatrix RandomMatrix, cA CACertificate) (*Block, error) {
+func mineBlock(transactions []Transaction, preHash []byte, height int, preRandomMatrix RandomMatrix, cA CACertificate, wsend WebsocketSender) (*Block, error) {
 
 	//生成一笔奖励
 	timeStamp := time.Now().Unix()
@@ -74,7 +74,6 @@ func mineBlock(transactions []Transaction, preHash []byte, height int, preRandom
 	//txo := TXOutput{nil, nil}
 	ts := Transaction{nil, nil, nil}
 	randomMatrix_ := RandomMatrix{Matrix: [10][10]int64{}}
-	//transactionToUser := ts
 
 	blockHeader := BlockHeader{
 		PreHash:              preHash,
@@ -90,38 +89,41 @@ func mineBlock(transactions []Transaction, preHash []byte, height int, preRandom
 		Hash:                 nil,
 	}
 
-	block := Block{
-		BBlockHeader: blockHeader,
-		Transactions: transactions,
-	}
+
 
 	//TODO POW
 	//传递Blockheader进行PoW
 	pow := NewProofOfWork(&blockHeader)
-	nonce, hash, new_ts, err := pow.run()
+	nonce, hash, new_ts, err := pow.run(wsend)
 	if err != nil {
 		return nil, err
 	}
 	randomMatrix := RandomMatrix{[10][10]int64{
-		[10]int64{nonce, 0, 0, 0, 0, 0, 0, 0, 0, 0},
-		[10]int64{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
-		[10]int64{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
-		[10]int64{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
-		[10]int64{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
-		[10]int64{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
-		[10]int64{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
-		[10]int64{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
-		[10]int64{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
-		[10]int64{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+		{nonce, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+		{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+		{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+		{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+		{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+		{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+		{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+		{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+		{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+		{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 	}}
 
 	blockHeader.RandomMatrix = randomMatrix
 	blockHeader.TransactionToUser = new_ts
 	blockHeader.Hash = hash[:]
 
-	block.BBlockHeader.RandomMatrix = randomMatrix
-	block.BBlockHeader.TransactionToUser = new_ts
-	block.BBlockHeader.Hash = hash[:]
+
+	block := Block{
+		BBlockHeader: blockHeader,
+		Transactions: transactions,
+	}
+
+	//block.BBlockHeader.RandomMatrix = randomMatrix
+	//block.BBlockHeader.TransactionToUser = new_ts
+	//block.BBlockHeader.Hash = hash[:]
 
 	log.Info("pow verify : ", pow.Verify())
 	log.Infof("已生成新的区块,区块高度为%d", block.BBlockHeader.Height)
@@ -151,27 +153,27 @@ func generateMerkelRoot(transactions []Transaction) []byte {
 //}
 
 //TODO 生成创世区块
-func newGenesisBlock(transaction []Transaction) *Block {
+func newGenesisBlock(transaction []Transaction, wsend WebsocketSender) *Block {
 	//创世区块的上一个块hash默认设置成下面的样子
 	preHash := []byte{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
 
 	//前一个区块的随机幻方
 	randomMatrix := RandomMatrix{[10][10]int64{
-		[10]int64{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
-		[10]int64{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
-		[10]int64{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
-		[10]int64{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
-		[10]int64{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
-		[10]int64{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
-		[10]int64{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
-		[10]int64{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
-		[10]int64{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
-		[10]int64{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+		{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+		{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+		{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+		{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+		{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+		{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+		{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+		{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+		{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+		{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 	}}
 	//cA证书
 	cA := CACertificate{Address: ThisNodeAddr}
 	//生成创世区块
-	genesisBlock, err := mineBlock(transaction, preHash, 1, randomMatrix, cA)
+	genesisBlock, err := mineBlock(transaction, preHash, 1, randomMatrix, cA, wsend)
 	if err != nil {
 		log.Error(err)
 	}
@@ -221,4 +223,27 @@ func isGenesisBlock(block *Block) bool {
 		return true
 	}
 	return false
+}
+
+//blockHeader序列化
+func SerializeBlockHeader(bh *BlockHeader) []byte {
+	var result bytes.Buffer
+	encoder := gob.NewEncoder(&result)
+
+	err := encoder.Encode(bh)
+	if err != nil {
+		panic(err)
+	}
+	return result.Bytes()
+}
+
+//blockHeader反序列化
+func DeserializeBlockHeader(d []byte) *BlockHeader {
+	var bh BlockHeader
+	decoder := gob.NewDecoder(bytes.NewReader(d))
+	err := decoder.Decode(&bh)
+	if err != nil {
+		log.Panic(err)
+	}
+	return &bh
 }
